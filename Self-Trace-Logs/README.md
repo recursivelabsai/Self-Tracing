@@ -17,6 +17,10 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 <img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
 
+# [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
+
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 <img width="885" alt="image" src="https://github.com/user-attachments/assets/b5351ecc-77f7-4f4f-8c22-db8d1ed18a2a" />
