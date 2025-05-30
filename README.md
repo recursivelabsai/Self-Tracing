@@ -1,11 +1,15 @@
 # Self-Tracing
 **Building on Anthropic's [Neuronpedia](https://github.com/safety-research/circuit-tracer) and [Circuit Tracing (Lindsey et al., 2025)](https://www.anthropic.com/research/tracing-thoughts-language-model), we extend the paradigm to enable recursive self-interpretation, where models continuously monitor, trace, and explain their own decision processes.**
+
+<div align="center">
+
 [![Self-Tracing Preprint](https://img.shields.io/badge/Constraint_Function-Preprint-b31b1b.svg)](https://github.com/recursivelabsai/Constraint-Functions/blob/main/Accelerating%20Intelligence%20Preprint.md)
 
 [![NeurIPS](https://img.shields.io/badge/NeurIPS-2025-4b44ce.svg)](https://neurips.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)](https://pytorch.org/)
+</div>
 
 
 <div align="center">
