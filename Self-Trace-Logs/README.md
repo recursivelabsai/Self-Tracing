@@ -15,3 +15,4 @@
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/3de77242-d913-4323-a24e-b19884f6166d" />
 
 # [Multilingual Conceptual Bridge](https://claude.ai/public/artifacts/a9b535de-7fae-4343-97d7-085a750f242b)
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/023537dc-d3a5-4d43-8109-d0ce533cbf70" />
