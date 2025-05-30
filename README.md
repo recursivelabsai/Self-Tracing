@@ -24,13 +24,15 @@ https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
 
 
-# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
-<img width="885" alt="image" src="https://github.com/user-attachments/assets/d6f59993-f977-4097-b753-1af762ed91e4" />
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
 
-# [Rhyme Circuit Trace](https://claude.ai/public/artifacts/26b5783d-efe3-48f0-a7c6-bec22546d110)
 
-<img width="872" alt="image" src="https://github.com/user-attachments/assets/94d42ba8-8987-456b-aef4-9dd4305ed015" />
+<img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
+
+# [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
 
 
 </div>
