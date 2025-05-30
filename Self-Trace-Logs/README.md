@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/283784a4-cb66-48bd-92df-9b9145cff177
 
 # [Rhyme Circuit Trace](https://claude.ai/public/artifacts/26b5783d-efe3-48f0-a7c6-bec22546d110)
 
-<img width="899" alt="image" src="https://github.com/user-attachments/assets/c54986a8-638c-4116-ba26-75108bf823df" />
+<img width="872" alt="image" src="https://github.com/user-attachments/assets/94d42ba8-8987-456b-aef4-9dd4305ed015" />
 
 
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
