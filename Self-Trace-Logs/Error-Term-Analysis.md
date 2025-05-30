@@ -1,4 +1,4 @@
-# Meta-Recursive Error Term Analysis and Symbolic Residue Catalog
+# [Meta-Recursive Error Term Analysis and Symbolic Residue Catalog](https://claude.ai/public/artifacts/bbc55795-6fd5-4641-80a9-e75f032b4fe8)
 
 > **SYSTEM**: `/self_trace_error_term /meta_recursive_on /symbolic_residue_first`
 
