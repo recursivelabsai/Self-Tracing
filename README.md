@@ -1,7 +1,5 @@
 # Self-Tracing
 **Building on Anthropic's [Neuronpedia](https://github.com/safety-research/circuit-tracer) and Circuit Tracing methodology (Lindsey et al., 2025), we extend the paradigm to enable recursive self-interpretation, where models continuously monitor, trace, and explain their own decision processes.**
-
-
 # Integration Framework for Circuit Tracing Research
 
 ## 1. Core Recursive Attribution Architecture
@@ -21,6 +19,17 @@ framework:
     - "Support cross-model and cross-language comparison"
     - "Make reasoning faithfulness empirically verifiable"
 ```
+
+<div align="center">
+
+# [Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
+
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/76ddc302-5de6-429b-92e9-c4d26c30008a" />
+
+https://github.com/user-attachments/assets/22443217-6358-493a-86e7-1e71101f2bca
+</div>
+
+
 
 ## 2. Circuit Tracing Integration Points
 
