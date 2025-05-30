@@ -3,7 +3,7 @@ Building on Anthropic's Circuit Tracing methodology (Lindsey et al., 2025), we e
 
 <div align="center">
 
-[Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
+# [Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
 
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/76ddc302-5de6-429b-92e9-c4d26c30008a" />
 
