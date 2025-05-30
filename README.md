@@ -3,6 +3,8 @@
 
 
 <div align="center">
+  
+# Integration Framework for Circuit Tracing Research
 
 
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
@@ -13,7 +15,6 @@ https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 </div>
 
-# Integration Framework for Circuit Tracing Research
 
 
 
