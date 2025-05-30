@@ -1,5 +1,5 @@
 # Logging Model Self-Tracing
-# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 <img width="915" alt="image" src="https://github.com/user-attachments/assets/7f8e0226-542f-42a1-a514-b05e9570e52e" />
 
