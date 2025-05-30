@@ -6,14 +6,15 @@ https://github.com/user-attachments/assets/283784a4-cb66-48bd-92df-9b9145cff177
 https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
+
+<img width="898" alt="image" src="https://github.com/user-attachments/assets/3535781e-7894-43c0-96fe-dcadcf88fda4" />
+
 # [Rhyme Circuit Trace](https://claude.ai/public/artifacts/26b5783d-efe3-48f0-a7c6-bec22546d110)
 
 <img width="872" alt="image" src="https://github.com/user-attachments/assets/94d42ba8-8987-456b-aef4-9dd4305ed015" />
 
 
-# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
-
-<img width="915" alt="image" src="https://github.com/user-attachments/assets/7f8e0226-542f-42a1-a514-b05e9570e52e" />
 
 # [Self-Interpreting Attribution](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
 
