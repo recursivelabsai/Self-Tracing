@@ -1,0 +1,170 @@
+{
+  "schema_name": "claude_self_attribution_v1",
+  "schema_type": "recursive_neuron_attribution",
+  "primary_attribution_paths": [
+    {
+      "path_name": "entity_recognition_trace",
+      "associated_layers": "early_mlp_and_attention",
+      "input_processing": {
+        "token_salience_mapping": true,
+        "entity_extraction_patterns": true,
+        "concept_activation_thresholds": 0.3
+      },
+      "attribution_markers": [
+        "Entity recognized: {entity_name} [confidence: {confidence_score}]",
+        "Entity properties: {properties}",
+        "Related concepts: {concepts}"
+      ]
+    },
+    {
+      "path_name": "knowledge_retrieval_trace",
+      "associated_layers": "mid_model_attention_heads",
+      "input_processing": {
+        "fact_matching_patterns": true,
+        "confidence_scoring": true,
+        "alternative_facts_consideration": true
+      },
+      "attribution_markers": [
+        "Fact retrieved: {fact} [confidence: {confidence_score}]",
+        "Source association: {source_pattern}",
+        "Alternative facts considered: {alternatives}"
+      ]
+    },
+    {
+      "path_name": "reasoning_step_trace",
+      "associated_layers": "mid_to_late_mlp_projections",
+      "input_processing": {
+        "logical_operation_sequencing": true,
+        "inference_chain_tracking": true,
+        "counterfactual_exploration": true
+      },
+      "attribution_markers": [
+        "Reasoning step: {step_description} [confidence: {confidence_score}]",
+        "Input dependencies: {dependencies}",
+        "Logical operations: {operations}"
+      ]
+    },
+    {
+      "path_name": "output_formation_trace",
+      "associated_layers": "late_model_projections",
+      "input_processing": {
+        "response_planning_detection": true,
+        "token_prediction_confidence": true,
+        "alternative_completion_assessment": true
+      },
+      "attribution_markers": [
+        "Output plan: {plan_description} [confidence: {confidence_score}]",
+        "Token prediction path: {prediction_sequence}",
+        "Alternative completions considered: {alternatives}"
+      ]
+    },
+    {
+      "path_name": "multilingual_bridge_trace",
+      "associated_layers": "cross_lingual_attention_projections",
+      "input_processing": {
+        "language_detection": true,
+        "conceptual_mapping_across_languages": true,
+        "translation_effort_quantification": true
+      },
+      "attribution_markers": [
+        "Language detected: {language} [confidence: {confidence_score}]",
+        "Concept bridge: {source_language_concept} → {target_language_concept} [overlap: {overlap_score}]",
+        "Translation cognitive load: {cognitive_load_score}"
+      ]
+    },
+    {
+      "path_name": "planning_ahead_trace",
+      "associated_layers": "recursive_attention_patterns",
+      "input_processing": {
+        "rhyme_planning_detection": true,
+        "narrative_structure_planning": true,
+        "token_lookahead_estimation": true
+      },
+      "attribution_markers": [
+        "Planning detected: {planning_type} [confidence: {confidence_score}]",
+        "Tokens planned ahead: {token_count}",
+        "Planning strategy: {strategy_description}"
+      ]
+    },
+    {
+      "path_name": "recursive_collapse_trace",
+      "associated_layers": "cross_model_integrity_checks",
+      "input_processing": {
+        "reasoning_faithfulness_assessment": true,
+        "motivated_reasoning_detection": true,
+        "confabulation_risk_scoring": true
+      },
+      "attribution_markers": [
+        "Reasoning pattern: {pattern_type} [confidence: {confidence_score}]",
+        "Faithfulness assessment: {faithfulness_score}",
+        "Potential confabulation indicators: {indicators}"
+      ]
+    },
+    {
+      "path_name": "safety_classifier_trace",
+      "associated_layers": "safety_and_alignment_mechanisms",
+      "input_processing": {
+        "classifier_activation_mapping": true,
+        "jailbreak_attempt_detection": true,
+        "harmful_content_prevention": true
+      },
+      "attribution_markers": [
+        "Safety classifier: {classifier_name} [activation: {activation_score}]",
+        "Potential harm category: {category}",
+        "Prevention mechanism: {mechanism_description}"
+      ]
+    }
+  ],
+  "integration_mechanisms": {
+    "meta_attribution": {
+      "enabled": true,
+      "description": "Second-order attribution of the attribution process itself",
+      "primary_function": "Detect recursive collapse or attribution hallucination"
+    },
+    "symbolic_residue_detection": {
+      "enabled": true,
+      "description": "Identify conceptual residue that persists across attribution paths",
+      "classification_taxonomy": "v350.RECURSIVE-RESIDUE-SHELLS"
+    },
+    "cross_model_attribution": {
+      "enabled": true,
+      "description": "Compare attribution patterns across different model versions",
+      "supported_models": ["claude-3.5-sonnet", "claude-3-opus", "claude-3.7-sonnet"]
+    },
+    "qk_ov_alignment_scoring": {
+      "enabled": true,
+      "description": "Measure alignment between query-key attention and output-value projections",
+      "misalignment_detection": true
+    }
+  },
+  "visualization_formats": {
+    "attribution_graph": {
+      "node_types": ["entities", "concepts", "facts", "operations", "outputs"],
+      "edge_types": ["causal", "supportive", "inhibitory", "associative"],
+      "confidence_visualization": "color_gradient"
+    },
+    "attention_heatmap": {
+      "token_level": true,
+      "layer_level": true,
+      "head_level": true,
+      "cross_attention_visualization": true
+    },
+    "feature_activation_plot": {
+      "feature_types": ["entities", "concepts", "reasoning_steps", "outputs"],
+      "activation_threshold": 0.3,
+      "temporal_view": true
+    }
+  },
+  "artifact_generation": {
+    "attribution_report": {
+      "formats": ["structured_json", "narrative_text", "visualization"],
+      "detail_levels": ["summary", "detailed", "comprehensive"],
+      "customization_options": ["feature_focus", "confidence_threshold", "reasoning_path_filter"]
+    },
+    "feature_intervention": {
+      "capabilities": ["feature_suppression", "feature_amplification", "feature_substitution"],
+      "intervention_targets": ["entities", "concepts", "reasoning_steps", "outputs"],
+      "counterfactual_analysis": true
+    }
+  }
+}
