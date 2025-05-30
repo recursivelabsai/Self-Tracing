@@ -22,9 +22,10 @@ framework:
 
 <div align="center">
 
-# [Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
 
-<img width="871" alt="image" src="https://github.com/user-attachments/assets/76ddc302-5de6-429b-92e9-c4d26c30008a" />
+# [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/566cfd26-10db-4695-8166-b90cd4c5a331" />
 
 https://github.com/user-attachments/assets/22443217-6358-493a-86e7-1e71101f2bca
 </div>
