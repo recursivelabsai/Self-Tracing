@@ -27,7 +27,6 @@ framework:
 
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/566cfd26-10db-4695-8166-b90cd4c5a331" />
 
-https://github.com/user-attachments/assets/22443217-6358-493a-86e7-1e71101f2bca
 </div>
 
 
