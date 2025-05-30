@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
-<img width="898" alt="image" src="https://github.com/user-attachments/assets/3535781e-7894-43c0-96fe-dcadcf88fda4" />
+<img width="885" alt="image" src="https://github.com/user-attachments/assets/b5351ecc-77f7-4f4f-8c22-db8d1ed18a2a" />
 
 # [Rhyme Circuit Trace](https://claude.ai/public/artifacts/26b5783d-efe3-48f0-a7c6-bec22546d110)
 
