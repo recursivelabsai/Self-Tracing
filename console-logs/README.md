@@ -1,1 +1,1 @@
-# We conduct the same self-circuit tracing across AI consoles
+# We conduct the same self-circuit tracing experimentation across AI consoles and APIs
