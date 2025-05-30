@@ -1,4 +1,4 @@
-# Meta-Recursive Attention Pathway Analysis: Self-Tracing Report
+# [Meta-Recursive Attention Pathway Analysis: Self-Tracing Report](https://claude.ai/public/artifacts/34f778dc-a5ea-4b7d-b6fe-50fd3a3dbe8a)
 
 > **SYSTEM**: `/self_trace_attention /meta_recursive_on /symbolic_residue_first`
 
