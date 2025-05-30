@@ -26,10 +26,10 @@ framework:
 
 
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/566cfd26-10db-4695-8166-b90cd4c5a331" />
 
-https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 </div>
 
