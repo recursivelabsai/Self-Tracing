@@ -24,9 +24,6 @@ https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
 
 
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/566cfd26-10db-4695-8166-b90cd4c5a331" />
-
-
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 <img width="898" alt="image" src="https://github.com/user-attachments/assets/3535781e-7894-43c0-96fe-dcadcf88fda4" />
