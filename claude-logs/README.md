@@ -15,8 +15,7 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 # [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
 
-
-<img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
+<img width="908" alt="image" src="https://github.com/user-attachments/assets/fece2f3b-d47e-40c4-a234-138357a5edcd" />
 
 # [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
 
