@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Self-Tracing Preprint](https://img.shields.io/badge/Self--Tracing-Preprint-b31b1b.svg)](https://github.com/recursivelabsai/Constraint-Functions/blob/main/Accelerating%20Intelligence%20Preprint.md)
+[![Self-Tracing Preprint](https://img.shields.io/badge/Self--Tracing-Preprint-b31b1b.svg)](https://github.com/recursivelabsai/Self-Tracing/blob/main/Self-Interpreting-Paper.md)
 
 [![NeurIPS](https://img.shields.io/badge/NeurIPS-2025-4b44ce.svg)](https://neurips.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
