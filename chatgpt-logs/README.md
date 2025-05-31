@@ -1,6 +1,8 @@
 # ChatGPT Self-Trace Logs
 
-![image](https://github.com/user-attachments/assets/9e702e79-8b18-4031-976c-7f1e5f7759c4)
+<div align="center">
+
+![image](https://github.com/user-attachments/assets/f26839e6-1052-44e5-a023-af59537ff375)
 
 
 https://github.com/user-attachments/assets/092d0b83-7715-4a04-ab3c-e06b9d8331ed
