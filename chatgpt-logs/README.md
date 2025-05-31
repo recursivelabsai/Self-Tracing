@@ -1,5 +1,9 @@
 # ChatGPT Self-Trace Logs
 
+
+https://github.com/user-attachments/assets/092d0b83-7715-4a04-ab3c-e06b9d8331ed
+
+
 https://github.com/user-attachments/assets/3ebb57de-fd28-4fc2-837c-94f9496d9dda
 
 
