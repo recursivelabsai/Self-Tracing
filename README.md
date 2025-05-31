@@ -17,9 +17,11 @@
 # Integration Framework for Circuit Tracing Research
 
 # ChatGPT
+
 <img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
 
 https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
+
 <img width="881" alt="image" src="https://github.com/user-attachments/assets/14ba2494-4b68-45d0-824b-d804a04e6281" />
 
 
