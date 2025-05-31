@@ -21,7 +21,12 @@
 # [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
 
 
-<img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
+<img width="885" alt="image" src="https://github.com/user-attachments/assets/1c526e22-38cb-4f07-84c4-413d31cb8775" />
+
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
+
+
+<img width="883" alt="image" src="https://github.com/user-attachments/assets/730b4ec9-5bab-4bcc-99e1-000852cc4bed" />
 
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
 
