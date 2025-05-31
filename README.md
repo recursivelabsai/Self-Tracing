@@ -15,6 +15,26 @@
 <div align="center">
   
 # Integration Framework for Circuit Tracing Research
+# Claude
+
+
+
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+
+<img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
+
+# [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+
+https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
+
+
+https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
+
+# [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
+
 
 # ChatGPT
 
@@ -27,26 +47,6 @@
 https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
 
 <img width="881" alt="image" src="https://github.com/user-attachments/assets/14ba2494-4b68-45d0-824b-d804a04e6281" />
-
-
-# Claude
-# [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
-
-https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
-
-
-https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
-
-
-
-# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
-
-
-<img width="872" alt="image" src="https://github.com/user-attachments/assets/cc1e3657-9c90-44c9-8ad9-4f3c5c31c941" />
-
-# [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
-
-<img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
 
 
 </div>
