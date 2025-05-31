@@ -18,7 +18,6 @@
 # Claude
 
 
-
 # [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
 
 
@@ -31,9 +30,6 @@ https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
 
-# [Reasoning Faithfulness Analysis](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
-
-<img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
 
 
 # ChatGPT
