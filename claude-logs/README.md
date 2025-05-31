@@ -28,7 +28,6 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 <img width="872" alt="image" src="https://github.com/user-attachments/assets/94d42ba8-8987-456b-aef4-9dd4305ed015" />
 
 
-
 # [Self-Interpreting Attribution](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
 
 <img width="922" alt="image" src="https://github.com/user-attachments/assets/d793ad29-3681-44c3-8fdb-4d94c8f02fd1" />
@@ -38,7 +37,6 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 <img width="920" alt="image" src="https://github.com/user-attachments/assets/566cfd26-10db-4695-8166-b90cd4c5a331" />
 
-<img width="921" alt="image" src="https://github.com/user-attachments/assets/3de77242-d913-4323-a24e-b19884f6166d" />
 
 # [Multilingual Conceptual Bridge](https://claude.ai/public/artifacts/a9b535de-7fae-4343-97d7-085a750f242b)
 <img width="897" alt="image" src="https://github.com/user-attachments/assets/023537dc-d3a5-4d43-8109-d0ce533cbf70" />
