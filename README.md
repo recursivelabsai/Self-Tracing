@@ -16,8 +16,16 @@
   
 # Integration Framework for Circuit Tracing Research
 
+# ChatGPT
 
+https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
+
+<img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
+
+
+# Claude
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+
 https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 
