@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/ed8ba6e8-4c35-4bb2-8f8a-7d5c1f8cf122
 
 # [Rhyme Circuit Trace](https://claude.ai/public/artifacts/26b5783d-efe3-48f0-a7c6-bec22546d110)
 
-<img width="872" alt="image" src="https://github.com/user-attachments/assets/94d42ba8-8987-456b-aef4-9dd4305ed015" />
+<img width="885" alt="image" src="https://github.com/user-attachments/assets/054d0be5-0887-44b4-b062-65965d86eccf" />
 
 
 # [Self-Interpreting Attribution](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
