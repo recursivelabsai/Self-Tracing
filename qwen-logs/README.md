@@ -1,6 +1,12 @@
 # Qwen Logs
-# [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/b131d787-9cb7-4383-aad1-b19fd2944aa2)
-<img width="905" alt="image" src="https://github.com/user-attachments/assets/0cddc2d5-8b57-4773-a852-b31983687a5a" />
+
+<div align="center">
+
+# [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/c094834e-4279-4aaa-b594-39036d09b7d7)
+
+
+https://github.com/user-attachments/assets/dda4ac60-0edf-4ea2-8fc8-8342f1b4a228
+
 
 https://github.com/user-attachments/assets/16e7a171-b588-43fb-be50-5ed0084efb1f
 
