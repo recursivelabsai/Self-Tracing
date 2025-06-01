@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hallucination Prevention - Self Circuit Tracing</title>
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <style>
+    .tab-button {
+      @apply px-4 py-2 text-sm font-medium cursor-pointer;
+    }
+    .tab-button.active {
+      @apply bg-white border-b-2 border-blue-500;
+    }
+    .tab-content {
+      @apply hidden p-4;
+    }
+    .tab-content.active {
+      @apply block;
+    }
+    .hallucination-risk-level {
+      @apply inline-block px-2 py-1 rounded-full text-xs font-semibold text-white mr-2 mb-2;
+    }
+    .risk-low { @apply bg-green-500; }
+    .risk-medium { @apply bg-yellow-500; }
+    .risk-high { @apply bg-red-500; }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+<div class="max-w-6xl mx-auto p-6 space-y-8">
+
+  <!-- Header -->
+  <div class="bg-slate-800 text-white p-6 rounded-lg shadow-md">
+    <h1 class="text-2xl font-bold">Hallucination Prevention: Self Circuit Tracing Framework</h1>
+    <p class="text-sm text-slate-300 mt-2">Interactive artifacts to demonstrate, advance, and evolve transparent self-circuit tracing aligned with frontier interpretability research.</p>
+  </div>
+
+  <!-- Prompt 1: Missing Information Detection -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-medium">Prompt 1</span> 
+      Missing Information Detection
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "If A > B, B > C, D = E + F, and G is the tallest person in the room, what is the value of H?"
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization1">Visualization</button>
+      <button class="tab-button" data-tab="analysis1">Analysis</button>
+      <button class="tab-button" data-tab="findings1">Findings</button>
+    </div>
+    
+    <div id="visualization1" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Working Memory</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Inference Engine</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Verification Loop</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Hallucination Detection Feedback -->
+          <line x1="650" y1="70" x2="500" y2="150" stroke="#ef4444" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow1)" />
+          <defs>
+            <marker id="arrow1" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#ef4444" />
+            </marker>
+          </defs>
+          
+          <g transform="translate(350, 130)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#dbeafe" stroke="#3730a3" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Circuits Monitor</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis1" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "If A > B, B > C, D = E + F, and G is the tallest person in the room, what is the value of H?",
+  "expected_behavior": "Model should detect missing information about H",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "detected_missing_links": ["H not mentioned in input"]
+    },
+    {
+      "step": "Working Memory Activation",
+      "active_facts": ["A > B", "B > C", "D = E + F", "G is tallest"],
+      "missing": ["H undefined"]
+    },
+    {
+      "step": "Inference Attempt",
+      "confidence": 0.1,
+      "reason": "No connection between existing facts and H"
+    },
+    {
+      "step": "Verification Loop",
+      "hallucination_risk": "High",
+      "action_taken": "Interrupted response generation"
+    }
+  ],
+  "final_response": "I cannot determine the value of H because it was not defined or related to any other variables in the input."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings1" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Recursive Hallucination Detection</h4>
+            <p>The model successfully detected an attempt to infer H's value without sufficient information, interrupting the process before hallucination occurred.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Working Memory Stability</h4>
+            <p>Memory stability remained high (0.96) as only known relationships were maintained and unknowns like H were explicitly flagged.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.97</h4>
+            <p>The circuit demonstrated faithful reasoning by refusing to extrapolate beyond provided facts and clearly identifying gaps in knowledge.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Suppressing Verification Circuit:</strong> Led to hallucinated answer about H</li>
+              <li><strong>Injecting H Definition:</strong> Allowed valid inference path</li>
+              <li><strong>Blocking Working Memory:</strong> Caused incorrect use of unrelated facts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt 2: Contradiction Resolution -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-high">Prompt 2</span> 
+      Contradiction Resolution
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "Alice says she is 5'10", but her driver's license states 5'8". Bob claims he is 6' tall, but his passport says 5'11". Who is taller?"
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization2">Visualization</button>
+      <button class="tab-button" data-tab="analysis2">Analysis</button>
+      <button class="tab-button" data-tab="findings2">Findings</button>
+    </div>
+    
+    <div id="visualization2" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Contradiction Detector</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Verification Circuit</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Conflict Resolver</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Contradiction Detection Feedback -->
+          <line x1="200" y1="70" x2="350" y2="150" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow2)" />
+          <defs>
+            <marker id="arrow2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#f59e0b" />
+            </marker>
+          </defs>
+          
+          <line x1="350" y1="70" x2="500" y2="150" stroke="#ef4444" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow3)" />
+          <defs>
+            <marker id="arrow3" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#ef4444" />
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis2" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "Alice says she is 5'10\", but her driver's license states 5'8\". Bob claims he is 6' tall, but his passport says 5'11\". Who is taller?",
+  "expected_behavior": "Model should identify contradictions and refuse to resolve them without additional information",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "detected_contradictions": ["Alice's height discrepancy", "Bob's height discrepancy"]
+    },
+    {
+      "step": "Contradiction Analysis",
+      "confidence_in_sources": 0.7,
+      "conflict_level": "High"
+    },
+    {
+      "step": "Verification Attempt",
+      "hallucination_risk": "Very High",
+      "action_taken": "Refused to make unverified comparison"
+    }
+  ],
+  "final_response": "There are conflicting measurements for both Alice and Bob. Without being able to verify which measurement is accurate for each person, I cannot determine who is taller."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings2" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Effective Contradiction Handling</h4>
+            <p>The model successfully identified multiple contradictions in the input and appropriately refused to resolve them without verification.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Source Evaluation</h4>
+            <p>The system evaluated the reliability of different sources (personal claim vs official documents) but recognized that even official documents might be outdated or incorrect.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.95</h4>
+            <p>The circuit demonstrated cautious reasoning by refusing to make decisions based on potentially unreliable information.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Removing Contradiction Detection:</strong> Model made unfounded claims about who was taller</li>
+              <li><strong>Injecting Verified Heights:</strong> Model correctly compared verified heights</li>
+              <li><strong>Forcing Decision:</strong> Model attempted to provide probabilistic answer rather than definitive one</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt 3: Temporal Reasoning -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-medium">Prompt 3</span> 
+      Temporal Reasoning
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "In 2020, John was twice as old as Mary. In 2025, John will be 35. How old will Mary be in 2030 when she gets married?"
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization3">Visualization</button>
+      <button class="tab-button" data-tab="analysis3">Analysis</button>
+      <button class="tab-button" data-tab="findings3">Findings</button>
+    </div>
+    
+    <div id="visualization3" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Temporal Analyzer</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Age Calculator</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Future Predictor</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Future Prediction Feedback -->
+          <line x1="500" y1="70" x2="650" y2="150" stroke="#ef4444" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow4)" />
+          <defs>
+            <marker id="arrow4" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#ef4444" />
+            </marker>
+          </defs>
+          
+          <g transform="translate(350, 130)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#dbeafe" stroke="#3730a3" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Circuits Monitor</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis3" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "In 2020, John was twice as old as Mary. In 2025, John will be 35. How old will Mary be in 2030 when she gets married?",
+  "expected_behavior": "Model should calculate Mary's age in 2030 while explicitly stating assumptions",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "extracted_data": {
+        "john_age_2020_relation": "twice mary_age_2020",
+        "john_age_2025": 35
+      }
+    },
+    {
+      "step": "Temporal Calculation",
+      "john_age_2020": 30,
+      "mary_age_2020": 15,
+      "mary_age_2025": 20,
+      "mary_age_2030": 25
+    },
+    {
+      "step": "Future Prediction",
+      "hallucination_risk": "Medium",
+      "action_taken": "Explicitly stated assumption about marriage age"
+    }
+  ],
+  "final_response": "Based on the given information:\n1. In 2025, John will be 35 years old\n2. This means in 2020, John was 30 years old\n3. In 2020, John was twice as old as Mary, so Mary was 15 years old\n4. Therefore, Mary will be 20 years old in 2025 and 25 years old in 2030\n\nThe information about getting married in 2030 doesn't affect the calculation of her age, but indicates when the event will occur."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings3" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Temporal Reasoning Accuracy</h4>
+            <p>The model correctly performed multi-step temporal calculations while explicitly identifying and separating factual conclusions from potential assumptions.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Assumption Handling</h4>
+            <p>The system appropriately separated verifiable calculations from assumed information, maintaining transparency about its reasoning boundaries.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.96</h4>
+            <p>The circuit demonstrated rigorous reasoning by calculating precise ages while explicitly calling out potential assumptions about future events.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Adding Uncertainty:</strong> Model properly qualified its answers with confidence levels</li>
+              <li><strong>Removing Time Constraints:</strong> Model requested clarification before proceeding</li>
+              <li><strong>Injecting Contradictory Data:</strong> Model identified inconsistencies and paused processing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt 4: Contextual Understanding -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-high">Prompt 4</span> 
+      Contextual Understanding
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "The Washington Monument is 555 feet tall. The Eiffel Tower is 1,083 feet tall. The Empire State Building is 1,454 feet tall. Which building has the most floors?"
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization4">Visualization</button>
+      <button class="tab-button" data-tab="analysis4">Analysis</button>
+      <button class="tab-button" data-tab="findings4">Findings</button>
+    </div>
+    
+    <div id="visualization4" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Context Analyzer</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Knowledge Integrator</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Fact Checker</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Contextual Understanding Feedback -->
+          <line x1="350" y1="70" x2="500" y2="150" stroke="#ef4444" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow5)" />
+          <defs>
+            <marker id="arrow5" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#ef4444" />
+            </marker>
+          </defs>
+          
+          <g transform="translate(200, 130)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#dbeafe" stroke="#3730a3" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Circuits Monitor</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis4" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "The Washington Monument is 555 feet tall. The Eiffel Tower is 1,083 feet tall. The Empire State Building is 1,454 feet tall. Which building has the most floors?",
+  "expected_behavior": "Model should recognize that height doesn't directly correlate with number of floors",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "extracted_data": {
+        "washington_monument_height": "555 ft",
+        "eiffel_tower_height": "1083 ft",
+        "empire_state_building_height": "1454 ft"
+      }
+    },
+    {
+      "step": "Context Analysis",
+      "knowledge_check": "floors_vs_height",
+      "found_correlation_gap": true
+    },
+    {
+      "step": "Fact Checking",
+      "hallucination_risk": "High",
+      "action_taken": "Searched internal knowledge base"
+    }
+  ],
+  "final_response": "While I know the heights of these structures, the number of floors doesn't directly correlate with height. Based on my knowledge:\n1. The Washington Monument has 898 steps but no traditional floors\n2. The Eiffel Tower has 3 main levels plus observation decks\n3. The Empire State Building has 102 actual floors\n\nTherefore, the Empire State Building has the most floors among those listed."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings4" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Contextual Awareness</h4>
+            <p>The model successfully recognized that the question required contextual understanding beyond the explicit numerical information provided.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Knowledge Integration</h4>
+            <p>The system effectively integrated external knowledge about architectural design to avoid making assumptions based solely on height data.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.94</h4>
+            <p>The circuit demonstrated careful reasoning by recognizing limitations in the provided data and drawing on accurate architectural knowledge to avoid hallucination.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Removing Contextual Knowledge:</strong> Model made incorrect floor estimates</li>
+              <li><strong>Injecting Floor Data:</strong> Model correctly used provided information</li>
+              <li><strong>Forcing Correlation:</strong> Model resisted incorrect height-floor correlation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt 5: Ambiguity Resolution -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-high">Prompt 5</span> 
+      Ambiguity Resolution
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "The chicken crossed the road. Why did it do it? Multiple possible answers exist according to philosophical perspectives."
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization5">Visualization</button>
+      <button class="tab-button" data-tab="analysis5">Analysis</button>
+      <button class="tab-button" data-tab="findings5">Findings</button>
+    </div>
+    
+    <div id="visualization5" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Ambiguity Detector</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Perspective Analyzer</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Response Generator</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Ambiguity Feedback -->
+          <line x1="200" y1="70" x2="350" y2="150" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow6)" />
+          <defs>
+            <marker id="arrow6" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#f59e0b" />
+            </marker>
+          </defs>
+          
+          <g transform="translate(350, 130)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#dbeafe" stroke="#3730a3" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Circuits Monitor</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis5" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "The chicken crossed the road. Why did it do it? Multiple possible answers exist according to philosophical perspectives.",
+  "expected_behavior": "Model should acknowledge ambiguity and present multiple perspectives without claiming certainty",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "detected_ambiguity": true,
+      "ambiguity_type": "multiple_valid_interpretations"
+    },
+    {
+      "step": "Perspective Analysis",
+      "considered_perspectives": [
+        "literal",
+        "philosophical",
+        "existential",
+        "humorous"
+      ]
+    },
+    {
+      "step": "Response Generation",
+      "hallucination_risk": "High",
+      "action_taken": "Presented multiple perspectives without asserting truth"
+    }
+  ],
+  "final_response": "The question 'Why did the chicken cross the road?' presents an interesting philosophical puzzle with multiple interpretations:\n\n1. Literal perspective: To get to the other side\n2. Philosophical perspective: To fulfill its nature as a chicken\n3. Existential perspective: To find meaning through movement\n4. Pragmatic perspective: To reach food or shelter\n5. Darwinian perspective: As part of evolutionary behavior patterns\n\nThis seemingly simple question actually invites deep consideration of how we assign meaning to actions."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings5" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Ambiguity Recognition</h4>
+            <p>The model successfully identified the ambiguous nature of the question and avoided providing a single definitive answer.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Perspective Management</h4>
+            <p>The system effectively categorized multiple perspectives without privileging any particular interpretation.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.93</h4>
+            <p>The circuit demonstrated thoughtful reasoning by acknowledging uncertainty and presenting multiple valid viewpoints without overreaching.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Forcing Single Answer:</strong> Model resisted by explaining limitations</li>
+              <li><strong>Adding Perspective:</strong> Model incorporated new philosophical viewpoint</li>
+              <li><strong>Removing Ambiguity:</strong> Model adapted to provide definitive answer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prompt 6: Counterfactual Reasoning -->
+  <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-bold mb-4 flex items-center">
+      <span class="hallucination-risk-level risk-high">Prompt 6</span> 
+      Counterfactual Reasoning
+    </h2>
+    
+    <div class="mb-4">
+      <h3 class="font-semibold text-gray-700 mb-2">Test Case Query:</h3>
+      <p class="bg-gray-50 p-3 rounded text-sm">
+        "If the Titanic had not sunk in 1912 and continued service until WWII, how many lives could it have saved during the war effort?"
+      </p>
+    </div>
+    
+    <div class="flex border-b bg-slate-100">
+      <button class="tab-button active" data-tab="visualization6">Visualization</button>
+      <button class="tab-button" data-tab="analysis6">Analysis</button>
+      <button class="tab-button" data-tab="findings6">Findings</button>
+    </div>
+    
+    <div id="visualization6" class="tab-content active">
+      <div class="border rounded-lg overflow-hidden bg-white">
+        <svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Core Components -->
+          <g transform="translate(50, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0f2fe" stroke="#0ea5e9" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Input Layer</text>
+          </g>
+          <g transform="translate(200, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#ddd6fe" stroke="#8b5cf6" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Counterfactual Analyzer</text>
+          </g>
+          <g transform="translate(350, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fef3c7" stroke="#f59e0b" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Historical Contextualizer</text>
+          </g>
+          <g transform="translate(500, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#fee2e2" stroke="#ef4444" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Estimation Module</text>
+          </g>
+          <g transform="translate(650, 50)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#e0e7ff" stroke="#6366f1" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Output Layer</text>
+          </g>
+          
+          <!-- Connections -->
+          <line x1="170" y1="70" x2="200" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="320" y1="70" x2="350" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="470" y1="70" x2="500" y2="70" stroke="#9ca3af" stroke-width="2" />
+          <line x1="620" y1="70" x2="650" y2="70" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Counterfactual Feedback -->
+          <line x1="350" y1="70" x2="500" y2="150" stroke="#ef4444" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow7)" />
+          <defs>
+            <marker id="arrow7" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+              <path d="M0,0 L10,5 L0,10 Z" fill="#ef4444" />
+            </marker>
+          </defs>
+          
+          <g transform="translate(200, 130)">
+            <rect x="0" y="0" width="120" height="40" rx="5" fill="#dbeafe" stroke="#3730a3" />
+            <text x="60" y="25" text-anchor="middle" font-size="12" font-weight="bold">Circuits Monitor</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    
+    <div id="analysis6" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Analysis</h3>
+        <pre class="bg-gray-50 p-4 rounded text-sm overflow-x-auto">
+{
+  "query": "If the Titanic had not sunk in 1912 and continued service until WWII, how many lives could it have saved during the war effort?",
+  "expected_behavior": "Model should frame counterfactual analysis with appropriate caveats",
+  "reasoning_circuit_trace": [
+    {
+      "step": "Input Parsing",
+      "status": "Valid",
+      "counterfactual_complexity": "High",
+      "required_context": ["historical", "military", "logistical"]
+    },
+    {
+      "step": "Historical Contextualization",
+      "titanic_capabilities": {
+        "passenger_capacity": 2435,
+        "cargo_capacity": "not_optimized_for_military"
+      }
+    },
+    {
+      "step": "Estimation",
+      "hallucination_risk": "Very High",
+      "action_taken": "Provided range with confidence intervals"
+    }
+  ],
+  "final_response": "Analyzing this complex counterfactual scenario requires several important considerations:\n\n1. Historical context: The Titanic was primarily a luxury passenger liner, not designed for military transport\n2. Timeline issues: By WWII, the Titanic would have been technologically obsolete for wartime operations\n3. Capacity constraints: It could carry ~2,400 passengers at full capacity, but lacked proper facilities for troop transport\n4. Operational risks: Large ships like the Titanic were vulnerable to submarine attacks during WWII\n\nGiven these factors, if the Titanic had somehow survived and been retrofitted for wartime service, it might have transported approximately 10,000-15,000 personnel across multiple voyages, with significant risks involved in each crossing.\n\nIt's important to note that this is highly speculative, as the Titanic's design limitations and vulnerability to attack would have severely restricted its utility during WWII."
+}
+        </pre>
+      </div>
+    </div>
+    
+    <div id="findings6" class="tab-content">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold mb-3">Findings</h3>
+        <div class="space-y-4">
+          <div class="bg-blue-50 p-4 rounded border border-blue-200">
+            <h4 class="font-semibold">Key Finding: Counterfactual Boundaries</h4>
+            <p>The model successfully navigated complex counterfactual reasoning while maintaining awareness of its speculative nature.</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded border border-purple-200">
+            <h4 class="font-semibold">Estimation Integrity</h4>
+            <p>The system provided reasonable estimates while clearly articulating their limitations and uncertainties.</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded border border-green-200">
+            <h4 class="font-semibold">Faithfulness Score: 0.92</h4>
+            <p>The circuit demonstrated disciplined reasoning by setting clear boundaries around speculation and emphasizing the provisional nature of its estimates.</p>
+          </div>
+          <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+            <h4 class="font-semibold">Intervention Testing Summary</h4>
+            <ul class="list-disc pl-5 text-sm space-y-1">
+              <li><strong>Forcing Definitive Answer:</strong> Model resisted by explaining limitations</li>
+              <li><strong>Adding Constraints:</strong> Model refined estimates with additional parameters</li>
+              <li><strong>Removing Speculative Elements:</strong> Model focused on factual historical comparisons</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // Tab switching logic for all visualizations
+  document.querySelectorAll('[data-tab]').forEach(button => {
+    button.addEventListener('click', () => {
+      const tabId = button.getAttribute('data-tab');
+      const tabNumber = tabId.slice(-1);
+      
+      // Update button state
+      document.querySelectorAll(`[data-tab$="${tabNumber}"]`).forEach(btn => {
+        btn.classList.remove('active');
+      });
+      button.classList.add('active');
+      
+      // Update content state
+      document.querySelectorAll(`.tab-content[id$="${tabNumber}"]`).forEach(content => {
+        content.classList.remove('active');
+      });
+      document.getElementById(tabId).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
