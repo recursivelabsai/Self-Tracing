@@ -15,6 +15,18 @@
 <div align="center">
   
 # Integration Framework for Circuit Tracing Research
+
+# Qwen
+
+
+# [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/c094834e-4279-4aaa-b594-39036d09b7d7)
+
+
+https://github.com/user-attachments/assets/dda4ac60-0edf-4ea2-8fc8-8342f1b4a228
+
+
+
+
 # Claude
 
 
