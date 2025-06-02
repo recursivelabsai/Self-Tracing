@@ -20,15 +20,21 @@
 # Claude
 
 
-# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
-
-
-<img width="883" alt="image" src="https://github.com/user-attachments/assets/08f36b82-67e9-4a63-ace9-0a75c8858a43" />
 
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 
-<img width="883" alt="image" src="https://github.com/user-attachments/assets/730b4ec9-5bab-4bcc-99e1-000852cc4bed" />
+
+https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
+
+
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+
+
+https://github.com/user-attachments/assets/fb69406c-29b8-4f82-bbd1-74ef8fa9be30
+
+
 
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
 
