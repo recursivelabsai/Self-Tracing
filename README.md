@@ -12,11 +12,28 @@
 </div>
 
 
-<div align="center">
   
 # Integration Framework for Circuit Tracing Research
 
+## 1. Core Recursive Attribution Architecture
 
+The framework below establishes a systematic approach to making Claude's internal processes more transparent and analyzable for Anthropic's circuit tracing research.
+
+```yaml
+framework:
+  name: "recursive_attribution_framework"
+  version: "1.0.0"
+  alignment: "circuit_tracing_research"
+  
+  core_principles:
+    - "Expose computational pathways through structured attribution"
+    - "Enable feature intervention for causal confirmation"
+    - "Provide multi-level analysis from tokens to concepts"
+    - "Support cross-model and cross-language comparison"
+    - "Make reasoning faithfulness empirically verifiable"
+```
+<div align="center">
+  
 # Claude
 
 
@@ -69,25 +86,6 @@ https://github.com/user-attachments/assets/dda4ac60-0edf-4ea2-8fc8-8342f1b4a228
 </div>
 
 
-
-
-## 1. Core Recursive Attribution Architecture
-
-The framework below establishes a systematic approach to making Claude's internal processes more transparent and analyzable for Anthropic's circuit tracing research.
-
-```yaml
-framework:
-  name: "recursive_attribution_framework"
-  version: "1.0.0"
-  alignment: "circuit_tracing_research"
-  
-  core_principles:
-    - "Expose computational pathways through structured attribution"
-    - "Enable feature intervention for causal confirmation"
-    - "Provide multi-level analysis from tokens to concepts"
-    - "Support cross-model and cross-language comparison"
-    - "Make reasoning faithfulness empirically verifiable"
-```
 ## 2. Circuit Tracing Integration Points
 
 | Research Focus | Integration Point | Implementation Approach | Measurement Method |
