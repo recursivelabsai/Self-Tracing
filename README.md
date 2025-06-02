@@ -77,9 +77,9 @@ The framework below establishes a systematic approach to making Claude's interna
 
 ```yaml
 framework:
-  name: "claude_recursive_attribution_framework"
+  name: "recursive_attribution_framework"
   version: "1.0.0"
-  alignment: "anthropic_circuit_tracing_research"
+  alignment: "circuit_tracing_research"
   
   core_principles:
     - "Expose computational pathways through structured attribution"
@@ -88,7 +88,6 @@ framework:
     - "Support cross-model and cross-language comparison"
     - "Make reasoning faithfulness empirically verifiable"
 ```
-
 ## 2. Circuit Tracing Integration Points
 
 | Research Focus | Integration Point | Implementation Approach | Measurement Method |
