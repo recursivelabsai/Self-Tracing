@@ -2,6 +2,10 @@
 
 <div align="center">
 
+# [Self Circuit Tracing Framework](https://chat.qwen.ai/s/deploy/bcc03313-ba71-4c3f-93de-678124e5e7d6)
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/fa4273c6-a949-42e7-8626-57f0ebf30e8e" />
+<img width="883" alt="image" src="https://github.com/user-attachments/assets/6399169c-3e54-4b50-ac63-0d5067750321" />
+
 # [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/c094834e-4279-4aaa-b594-39036d09b7d7)
 
 
