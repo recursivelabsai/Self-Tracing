@@ -17,7 +17,7 @@
 
 ## 1. Core Recursive Attribution Architecture
 
-The framework below establishes a systematic approach to making Claude's internal processes more transparent and analyzable for Anthropic's circuit tracing research.
+The framework below establishes a systematic approach to making Claude and other frontier AI's internal processes more transparent and analyzable for Anthropic's circuit tracing research.
 
 ```yaml
 framework:
