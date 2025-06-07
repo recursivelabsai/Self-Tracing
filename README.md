@@ -13,7 +13,7 @@
 
 
   
-# Integration Framework for Circuit Tracing Research
+# Framework for Circuit Tracing Research
 
 ## 1. Core Recursive Attribution Architecture
 
@@ -35,6 +35,10 @@ framework:
 <div align="center">
   
 # Claude
+
+# Coding + Circuit Tracing for 3 Minutes
+
+https://github.com/user-attachments/assets/3aeb0786-3c8b-4873-97ff-4879ce36e11b
 
 
 
