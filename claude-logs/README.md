@@ -1,6 +1,8 @@
-# Logging Model Self-Tracing
+# Claude Self-Tracing Logs
 
 
+
+https://github.com/user-attachments/assets/07d0c634-e354-4193-b845-3325bb97b4f6
 
 https://github.com/user-attachments/assets/d7b224e3-a0d3-47c1-8bc3-7027452b4b1c
 
