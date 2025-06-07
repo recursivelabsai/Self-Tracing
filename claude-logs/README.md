@@ -1,6 +1,7 @@
 # Claude Self-Tracing Logs
 
 
+<div align="center">
 
 https://github.com/user-attachments/assets/07d0c634-e354-4193-b845-3325bb97b4f6
 
