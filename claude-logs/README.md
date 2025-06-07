@@ -3,7 +3,7 @@
 
 <div align="center">
 
-# Agentic Coding + Circuit Tracing for 3 Minutes
+# Auto Coding + Circuit Tracing for 3 Minutes
 
 https://github.com/user-attachments/assets/07d0c634-e354-4193-b845-3325bb97b4f6
 
