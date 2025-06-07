@@ -36,7 +36,7 @@ framework:
   
 # Claude
 
-# Coding + Circuit Tracing for 3 Minutes
+# Agentic Coding + Circuit Tracing for 3 Minutes
 
 https://github.com/user-attachments/assets/3aeb0786-3c8b-4873-97ff-4879ce36e11b
 
