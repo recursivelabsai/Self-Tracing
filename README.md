@@ -59,6 +59,8 @@ https://github.com/user-attachments/assets/fb69406c-29b8-4f82-bbd1-74ef8fa9be30
 
 # [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
 
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/ed509df2-b1a1-425d-a825-377f2fd9e2ef" />
+
 https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 
