@@ -35,6 +35,7 @@ framework:
 <div align="center">
   
 # Claude
+https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 # Auto Coding + Circuit Tracing for 3 Minutes
 
@@ -61,7 +62,7 @@ https://github.com/user-attachments/assets/fb69406c-29b8-4f82-bbd1-74ef8fa9be30
 
 <img width="725" alt="image" src="https://github.com/user-attachments/assets/ed509df2-b1a1-425d-a825-377f2fd9e2ef" />
 
-https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
+
 
 
 https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
