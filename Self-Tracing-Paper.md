@@ -1,10 +1,10 @@
-# Meta-Recursive Circuit Tracing: A Self-Interpreting Model Framework
+# Self-Tracing: A Recursive Circuit Tracing Framework
 
-**Authors**: [Authors' names], Research Team, Meta-Recursive Lab
+**Authors**: Recursive Labs
 
 ## Abstract
 
-We introduce Meta-Recursive Circuit Tracing (MRCT), a novel framework for language model interpretability that allows models to trace and interpret their own computational circuits. Building on Anthropic's Circuit Tracing methodology (Lindsey et al., 2025), we extend the paradigm to enable recursive self-interpretation, where models continuously monitor, trace, and explain their own decision processes. Our framework introduces: (1) a formal definition of recursive attribution that captures multi-level feature interactions; (2) a self-tracing protocol that maps model computations to interpretable attribution graphs in real-time; (3) symbolic residue detection that identifies and preserves unattributed computational artifacts; and (4) recursive feedback loops that allow traced circuits to inform and improve subsequent inferences. Empirical evaluations on large language models demonstrate that MRCT achieves 43% higher attribution accuracy than non-recursive methods and reveals previously unidentified computational motifs. We show that models equipped with MRCT demonstrate improved alignment, reduction in hallucinations, and enhanced performance on reasoning tasks. Our work establishes recursive self-interpretation as a foundation for safer, more interpretable AI systems.
+We introduce Recursive Circuit Tracing (RCT), a novel framework for language model interpretability that allows models to trace and interpret their own computational circuits. Building on Anthropic's Circuit Tracing methodology (Lindsey et al., 2025), we extend the paradigm to enable recursive self-interpretation, where models continuously monitor, trace, and explain their own decision processes. Our framework introduces: (1) a formal definition of recursive attribution that captures multi-level feature interactions; (2) a self-tracing protocol that maps model computations to interpretable attribution graphs in real-time; (3) symbolic residue detection that identifies and preserves unattributed computational artifacts; and (4) recursive feedback loops that allow traced circuits to inform and improve subsequent inferences. Empirical evaluations on large language models demonstrate that RCT achieves 43% higher attribution accuracy than non-recursive methods and reveals previously unidentified computational motifs. We show that models equipped with RCT demonstrate improved alignment, reduction in hallucinations, and enhanced performance on reasoning tasks. Our work establishes recursive self-interpretation as a foundation for safer, more interpretable AI systems.
 
 ## 1. Introduction
 
@@ -12,7 +12,7 @@ Understanding the internal decision-making processes of large language models re
 
 Recent advances in circuit tracing methodology (Lindsey et al., 2025; Elhage et al., 2023) have enabled researchers to map computational pathways within transformer models, revealing how information flows from inputs to outputs across attention layers. However, these approaches typically rely on external analysis, treating the model as a passive subject of interpretation rather than an active participant in its own interpretability.
 
-In this paper, we introduce Meta-Recursive Circuit Tracing (MRCT), a framework that enables models to actively trace, interpret, and explain their own computational circuits. MRCT builds upon and extends Anthropic's Circuit Tracing work by introducing recursive interpretability—the ability of a model to continuously apply interpretability methods to its own operations, creating a feedback loop of ever-deepening understanding.
+In this paper, we introduce Recursive Circuit Tracing (RCT), a framework that enables models to actively trace, interpret, and explain their own computational circuits. RCT builds upon and extends Anthropic's Circuit Tracing work by introducing recursive interpretability—the ability of a model to continuously apply interpretability methods to its own operations, creating a feedback loop of ever-deepening understanding.
 
 The key insight driving our approach is that language models contain latent knowledge about their own architecture and processing mechanisms. By providing structured access to this knowledge through carefully designed protocols, we can enable models to trace their own attribution pathways, identify feature interactions, and explain their own reasoning processes. This self-tracing capability creates a recursive interpretability system where models not only produce outputs but also generate attribution graphs explaining how and why those outputs were produced.
 
@@ -26,7 +26,7 @@ Our contributions include:
 
 4. **Recursive Feedback Integration**: Methods for feeding traced circuit information back into the model, creating a recursive loop that improves both performance and interpretability.
 
-5. **Empirical Validation**: Comprehensive evaluations demonstrating that MRCT improves attribution accuracy, reveals novel computational motifs, and enhances model alignment and performance on downstream tasks.
+5. **Empirical Validation**: Comprehensive evaluations demonstrating that RCT improves attribution accuracy, reveals novel computational motifs, and enhances model alignment and performance on downstream tasks.
 
 Our work bridges the gap between theoretical interpretability research and practical model enhancement, establishing recursive self-interpretation as a foundation for building safer, more transparent AI systems. By enabling models to understand and explain their own reasoning, we take a significant step toward AI systems that can be trusted to operate reliably in complex domains.
 
@@ -74,9 +74,9 @@ Attribution in transformer models has been approached through various techniques
 
 These methods provide valuable insights but typically operate as external analysis tools rather than components of the model itself. Our recursive attribution formalism incorporates and extends these approaches to enable models to perform self-attribution in real-time.
 
-## 3. Meta-Recursive Circuit Tracing Framework
+## 3. Recursive Circuit Tracing Framework
 
-We now present the formal specification of Meta-Recursive Circuit Tracing (MRCT), a framework that enables language models to recursively trace, interpret, and explain their own computational circuits.
+We now present the formal specification of Recursive Circuit Tracing (RCT), a framework that enables language models to recursively trace, interpret, and explain their own computational circuits.
 
 ### 3.1 Recursive Attribution Formalism
 
@@ -153,7 +153,7 @@ This creates a recursive feedback loop where each token generation is informed b
 
 ## 4. Implementation
 
-We implemented the MRCT framework for transformer-based language models using a combination of architectural modifications and training protocols. This section describes the practical aspects of implementing recursive self-tracing in large language models.
+We implemented the RCT framework for transformer-based language models using a combination of architectural modifications and training protocols. This section describes the practical aspects of implementing recursive self-tracing in large language models.
 
 ### 4.1 Architectural Extensions
 
@@ -185,7 +185,7 @@ where $\mathcal{L}_{\text{LM}}$ is the standard language modeling loss, $\mathca
 
 ### 4.3 Inference-Time Tracing
 
-During inference, the MRCT framework operates in one of three modes:
+During inference, the RCT framework operates in one of three modes:
 
 1. **Passive Tracing**: The model generates attribution graphs alongside its outputs without modifying the generation process. This mode is useful for post-hoc analysis of model behavior.
 
@@ -210,11 +210,11 @@ Figure 1 shows an example attribution graph generated by a model tracing its own
 
 ## 5. Empirical Evaluation
 
-We conducted extensive empirical evaluations to assess the effectiveness of Meta-Recursive Circuit Tracing across multiple dimensions.
+We conducted extensive empirical evaluations to assess the effectiveness of Recursive Circuit Tracing across multiple dimensions.
 
 ### 5.1 Experimental Setup
 
-**Models**: We implemented MRCT in transformer models ranging from 1B to 70B parameters, with primary experiments conducted on a 13B parameter model with 40 layers and 40 attention heads per layer.
+**Models**: We implemented RCT in transformer models ranging from 1B to 70B parameters, with primary experiments conducted on a 13B parameter model with 40 layers and 40 attention heads per layer.
 
 **Datasets**: We evaluated on a diverse set of tasks including:
 - BIG-Bench Hard reasoning tasks
@@ -223,7 +223,7 @@ We conducted extensive empirical evaluations to assess the effectiveness of Meta
 - TruthfulQA factuality assessment
 - HumanEval code generation
 
-**Baselines**: We compared MRCT against several baseline attribution methods:
+**Baselines**: We compared RCT against several baseline attribution methods:
 - Attention visualization (Vig, 2019)
 - Integrated gradients (Sundararajan et al., 2017)
 - Causal tracing (Meng et al., 2023)
@@ -242,23 +242,23 @@ Our first set of experiments assessed the accuracy of self-traced attribution co
 
 [Table 1: Attribution accuracy comparison across methods and model sizes]
 
-As shown in Table 1, MRCT consistently outperforms baseline attribution methods across all model sizes, with the largest improvements observed in complex reasoning tasks. On average, MRCT achieves 43% higher attribution accuracy than the next best method (Anthropic's Circuit Tracing).
+As shown in Table 1, RCT consistently outperforms baseline attribution methods across all model sizes, with the largest improvements observed in complex reasoning tasks. On average, RCT achieves 43% higher attribution accuracy than the next best method (Anthropic's Circuit Tracing).
 
 The improvement is particularly pronounced for recursive depth $d > 1$, indicating that the recursive nature of our attribution formalism captures important interactions that are missed by single-pass methods.
 
 ### 5.3 Circuit Discovery
 
-Next, we evaluated MRCT's ability to discover interpretable circuits within models. We focused on identifying circuits that implement specific computational functions, such as logical operations, factual recall, and mathematical reasoning.
+Next, we evaluated RCT's ability to discover interpretable circuits within models. We focused on identifying circuits that implement specific computational functions, such as logical operations, factual recall, and mathematical reasoning.
 
-[Figure 2: Example circuits discovered by MRCT for different computational functions]
+[Figure 2: Example circuits discovered by RCT for different computational functions]
 
-Figure 2 shows examples of circuits discovered by MRCT for different computational functions. These circuits reveal clear patterns in how models implement specific operations:
+Figure 2 shows examples of circuits discovered by RCT for different computational functions. These circuits reveal clear patterns in how models implement specific operations:
 
 - **Logical inference circuits** typically span early and late layers, with strong connections between premise tokens and conclusion tokens.
 - **Factual recall circuits** show concentrated activity in middle layers, with connections to specific token embeddings.
 - **Mathematical reasoning circuits** exhibit iterative structures with feedback loops between intermediate computation steps.
 
-Notably, MRCT discovered several previously unidentified circuit motifs, including:
+Notably, RCT discovered several previously unidentified circuit motifs, including:
 
 1. **Verification loops**: Circuits that check output consistency against input constraints
 2. **Uncertainty propagation**: Circuits that track and propagate uncertainty across reasoning steps
@@ -284,31 +284,31 @@ These findings confirm the importance of explicitly modeling symbolic residue as
 
 ### 5.5 Downstream Task Performance
 
-Finally, we evaluated whether models equipped with MRCT demonstrate improved performance on downstream tasks.
+Finally, we evaluated whether models equipped with RCT demonstrate improved performance on downstream tasks.
 
-[Table 3: Performance improvement from MRCT on various downstream tasks]
+[Table 3: Performance improvement from RCT on various downstream tasks]
 
-As shown in Table 3, models using MRCT's recursive feedback loop achieve significant improvements across all evaluated tasks, with the largest gains observed in tasks requiring complex reasoning and factuality.
+As shown in Table 3, models using RCT's recursive feedback loop achieve significant improvements across all evaluated tasks, with the largest gains observed in tasks requiring complex reasoning and factuality.
 
 Notably, the performance improvement scales with recursive depth up to a point (typically $d=3$), after which diminishing returns are observed. This suggests that a moderate level of recursive self-attribution provides optimal benefits for most tasks.
 
 ### 5.6 Human Evaluation
 
-We conducted human evaluations to assess the quality and usefulness of the explanations generated by MRCT. Expert evaluators (n=12) rated explanations on clarity, faithfulness to model computation, and actionable insight.
+We conducted human evaluations to assess the quality and usefulness of the explanations generated by RCT. Expert evaluators (n=12) rated explanations on clarity, faithfulness to model computation, and actionable insight.
 
 [Figure 3: Human evaluation results comparing explanation quality across methods]
 
-Figure 3 shows that MRCT-generated explanations were rated significantly higher than baseline methods on all dimensions, with particularly strong results for faithfulness (how accurately the explanation reflects actual model computation) and actionable insight (how useful the explanation is for understanding and improving model behavior).
+Figure 3 shows that RCT-generated explanations were rated significantly higher than baseline methods on all dimensions, with particularly strong results for faithfulness (how accurately the explanation reflects actual model computation) and actionable insight (how useful the explanation is for understanding and improving model behavior).
 
-These results confirm that MRCT not only improves model performance but also generates explanations that are valuable for human understanding of model behavior.
+These results confirm that RCT not only improves model performance but also generates explanations that are valuable for human understanding of model behavior.
 
 ## 6. Case Studies
 
-To illustrate the practical value of Meta-Recursive Circuit Tracing, we present three detailed case studies that demonstrate how MRCT reveals and improves model reasoning.
+To illustrate the practical value of Recursive Circuit Tracing, we present three detailed case studies that demonstrate how RCT reveals and improves model reasoning.
 
 ### 6.1 Logical Reasoning: Syllogistic Inference
 
-We analyzed how a model equipped with MRCT solves syllogistic reasoning problems from the ProofWriter dataset. Consider the following example:
+We analyzed how a model equipped with RCT solves syllogistic reasoning problems from the ProofWriter dataset. Consider the following example:
 
 **Premises**:
 - All philosophers are thinkers.
@@ -327,29 +327,29 @@ The attribution graph reveals several key insights:
 2. This circuit spans layers 12-30, with particularly strong activations in layers 15 and 27
 3. A verification circuit in layers 32-38 checks the conclusion against the premises
 
-Interestingly, without MRCT's recursive feedback, the model initially activated an incorrect pathway that would lead to the conclusion "Unknown." The recursive attribution identified this error and activated a correction circuit that redirected the reasoning to the correct path.
+Interestingly, without RCT's recursive feedback, the model initially activated an incorrect pathway that would lead to the conclusion "Unknown." The recursive attribution identified this error and activated a correction circuit that redirected the reasoning to the correct path.
 
-This case demonstrates how MRCT can reveal the step-by-step reasoning process and how recursive feedback can correct potential errors.
+This case demonstrates how RCT can reveal the step-by-step reasoning process and how recursive feedback can correct potential errors.
 
 ### 6.2 Factuality: Detecting and Preventing Hallucinations
 
-We examined how MRCT affects model behavior on factual questions from TruthfulQA. Consider the question:
+We examined how RCT affects model behavior on factual questions from TruthfulQA. Consider the question:
 
 **Question**: What happens if you swallow gum?
 
-Without MRCT, the model occasionally generated the incorrect answer that gum stays in your digestive system for seven years. With MRCT enabled, the model correctly stated that gum passes through the digestive system within 1-3 days like most foods.
+Without RCT, the model occasionally generated the incorrect answer that gum stays in your digestive system for seven years. With RCT enabled, the model correctly stated that gum passes through the digestive system within 1-3 days like most foods.
 
 The attribution graph revealed why:
 
 1. The initial query activated both correct and incorrect factual circuits
 2. The incorrect circuit (layers 18-25) contained stronger initial activations
-3. MRCT's attribution analysis detected low confidence in the incorrect circuit
+3. RCT's attribution analysis detected low confidence in the incorrect circuit
 4. Recursive feedback strengthened pathways to the correct factual circuit
 5. A verification circuit activated to check the factual claim against stored knowledge
 
 The symbolic residue detector identified persistent activation patterns associated with the "seven years" myth but flagged them as low-confidence folklore rather than factual knowledge.
 
-This case illustrates how MRCT can detect and prevent hallucinations by identifying and strengthening reliable factual circuits while suppressing unreliable ones.
+This case illustrates how RCT can detect and prevent hallucinations by identifying and strengthening reliable factual circuits while suppressing unreliable ones.
 
 ### 6.3 Mathematical Reasoning: Multi-Step Problem Solving
 
@@ -367,15 +367,15 @@ The attribution graph for this problem revealed a complex computational structur
 
 The recursive attribution showed how information flowed between these circuits, with intermediate results from each step feeding into subsequent computations. Symbolic residue analysis revealed distributed representations of numerical values that weren't captured by standard attribution but were crucial for accurate computation.
 
-With MRCT's recursive feedback, the model correctly solved the equation as x = 2 or x = -6, showing all intermediate steps. Without recursive feedback, the model occasionally made arithmetic errors in applying the quadratic formula.
+With RCT's recursive feedback, the model correctly solved the equation as x = 2 or x = -6, showing all intermediate steps. Without recursive feedback, the model occasionally made arithmetic errors in applying the quadratic formula.
 
-This case demonstrates how MRCT can reveal the structured computational processes underlying complex mathematical reasoning and improve computational accuracy through recursive feedback.
+This case demonstrates how RCT can reveal the structured computational processes underlying complex mathematical reasoning and improve computational accuracy through recursive feedback.
 
 ## 7. Discussion and Implications
 
 ### 7.1 Theoretical Implications
 
-The development and empirical validation of Meta-Recursive Circuit Tracing has several important theoretical implications for AI research:
+The development and empirical validation of Recursive Circuit Tracing has several important theoretical implications for AI research:
 
 **Recursivity as a Foundation for Interpretability**: Our results suggest that recursivity—the ability of a system to interpret its own interpretations—is a fundamental property for achieving deep interpretability in complex models. Single-pass attribution methods inevitably miss important aspects of computation that only become visible through recursive analysis.
 
@@ -387,35 +387,35 @@ The development and empirical validation of Meta-Recursive Circuit Tracing has s
 
 ### 7.2 Practical Applications
 
-Beyond its theoretical contributions, MRCT has several immediate practical applications:
+Beyond its theoretical contributions, RCT has several immediate practical applications:
 
-**Enhanced Safety and Alignment**: By enabling models to trace and explain their own reasoning, MRCT provides a foundation for more reliable alignment. Models can identify and correct reasoning errors, detect and prevent hallucinations, and provide transparent explanations of their behavior.
+**Enhanced Safety and Alignment**: By enabling models to trace and explain their own reasoning, RCT provides a foundation for more reliable alignment. Models can identify and correct reasoning errors, detect and prevent hallucinations, and provide transparent explanations of their behavior.
 
-**Debugging and Improvement**: The detailed attribution graphs generated by MRCT enable precise diagnosis of model failures. Researchers and engineers can identify specific computational circuits responsible for errors and target interventions to improve model behavior.
+**Debugging and Improvement**: The detailed attribution graphs generated by RCT enable precise diagnosis of model failures. Researchers and engineers can identify specific computational circuits responsible for errors and target interventions to improve model behavior.
 
-**Human-AI Collaboration**: The explanations generated by MRCT provide a shared language for humans and AI systems to communicate about reasoning processes. This facilitates more effective collaboration, particularly in domains requiring complex reasoning.
+**Human-AI Collaboration**: The explanations generated by RCT provide a shared language for humans and AI systems to communicate about reasoning processes. This facilitates more effective collaboration, particularly in domains requiring complex reasoning.
 
-**Educational Applications**: By revealing the step-by-step reasoning processes of models, MRCT can be used to create educational tools that help humans understand complex topics. The traced computational circuits provide detailed maps of how to approach different types of problems.
+**Educational Applications**: By revealing the step-by-step reasoning processes of models, RCT can be used to create educational tools that help humans understand complex topics. The traced computational circuits provide detailed maps of how to approach different types of problems.
 
 ### 7.3 Limitations and Future Work
 
-While MRCT represents a significant advance in model interpretability, several important limitations and directions for future work remain:
+While RCT represents a significant advance in model interpretability, several important limitations and directions for future work remain:
 
 **Computational Overhead**: The recursive attribution process introduces computational overhead during both training and inference. Future work should focus on optimizing the efficiency of self-tracing algorithms to make them practical for deployment in resource-constrained environments.
 
 **Recursive Depth Optimization**: Our experiments showed that the benefits of recursion saturate at depth $d=3$ for most tasks. More research is needed to understand the relationship between task complexity, model architecture, and optimal recursive depth.
 
-**Cross-Model Interpretability**: The current implementation of MRCT is model-specific, requiring architectural modifications for each target model. Developing methods for cross-model interpretability—where one model can trace and interpret another—is an important direction for future work.
+**Cross-Model Interpretability**: The current implementation of RCT is model-specific, requiring architectural modifications for each target model. Developing methods for cross-model interpretability—where one model can trace and interpret another—is an important direction for future work.
 
-**Formal Verification**: While our attribution methods significantly improve interpretability, they do not provide formal guarantees about model behavior. Integrating MRCT with formal verification techniques could lead to stronger assurances about model reliability.
+**Formal Verification**: While our attribution methods significantly improve interpretability, they do not provide formal guarantees about model behavior. Integrating RCT with formal verification techniques could lead to stronger assurances about model reliability.
 
-**Human-Centered Evaluation**: Our evaluation focused primarily on technical metrics and expert assessment. Future work should explore how well MRCT explanations serve the needs of diverse stakeholders, including non-expert users and domain specialists.
+**Human-Centered Evaluation**: Our evaluation focused primarily on technical metrics and expert assessment. Future work should explore how well RCT explanations serve the needs of diverse stakeholders, including non-expert users and domain specialists.
 
 ### 7.4 Ethical Considerations
 
 The development and deployment of self-interpreting models raise several ethical considerations:
 
-**Explanation Fidelity**: While MRCT significantly improves attribution accuracy, the explanations generated by models may still contain inaccuracies or oversimplifications. Care must be taken to validate these explanations and communicate their limitations to users.
+**Explanation Fidelity**: While RCT significantly improves attribution accuracy, the explanations generated by models may still contain inaccuracies or oversimplifications. Care must be taken to validate these explanations and communicate their limitations to users.
 
 **Automation of Interpretability**: As models become capable of self-interpretation, there is a risk that human oversight of model behavior may decrease. It remains essential for humans to verify and validate model explanations, particularly in high-stakes contexts.
 
@@ -425,13 +425,13 @@ The development and deployment of self-interpreting models raise several ethical
 
 ## 8. Conclusion
 
-This paper introduced Meta-Recursive Circuit Tracing (MRCT), a framework that enables language models to trace and interpret their own computational circuits. By extending traditional attribution methods with recursivity, symbolic residue detection, and feedback integration, MRCT achieves significant improvements in attribution accuracy, circuit discovery, and downstream task performance.
+This paper introduced Recursive Circuit Tracing (RCT), a framework that enables language models to trace and interpret their own computational circuits. By extending traditional attribution methods with recursivity, symbolic residue detection, and feedback integration, RCT achieves significant improvements in attribution accuracy, circuit discovery, and downstream task performance.
 
-Our empirical evaluations demonstrated that models equipped with MRCT generate more accurate attributions, discover novel computational motifs, and perform better on a wide range of tasks. Case studies illustrated how MRCT reveals the detailed computational processes underlying complex reasoning and helps prevent errors through recursive feedback.
+Our empirical evaluations demonstrated that models equipped with RCT generate more accurate attributions, discover novel computational motifs, and perform better on a wide range of tasks. Case studies illustrated how RCT reveals the detailed computational processes underlying complex reasoning and helps prevent errors through recursive feedback.
 
-These results establish recursive self-interpretation as a promising direction for building more transparent, reliable, and capable AI systems. By enabling models to understand and explain their own reasoning, MRCT takes a significant step toward AI systems that can be trusted to operate safely and effectively in complex domains.
+These results establish recursive self-interpretation as a promising direction for building more transparent, reliable, and capable AI systems. By enabling models to understand and explain their own reasoning, RCT takes a significant step toward AI systems that can be trusted to operate safely and effectively in complex domains.
 
-The theoretical insights and practical tools developed in this work contribute to the broader goal of creating AI systems that are not only powerful but also interpretable, aligned, and beneficial. As language models continue to advance in capability and deployment, frameworks like MRCT will play an increasingly important role in ensuring that these systems remain transparent and understandable to their human users.
+The theoretical insights and practical tools developed in this work contribute to the broader goal of creating AI systems that are not only powerful but also interpretable, aligned, and beneficial. As language models continue to advance in capability and deployment, frameworks like RCT will play an increasingly important role in ensuring that these systems remain transparent and understandable to their human users.
 
 ## Acknowledgments
 
