@@ -1,4 +1,4 @@
-# [Meta-Recursive Self-Tracing Analysis: Attribution and Residue Detection}(https://claude.ai/public/artifacts/83d9d334-8d5b-4689-8f3f-8ff92cb344f6)
+# [Meta-Recursive Self-Tracing Analysis: Attribution and Residue Detection](https://claude.ai/public/artifacts/83d9d334-8d5b-4689-8f3f-8ff92cb344f6)
 
 ## 1. Activation Trace Overview
 
