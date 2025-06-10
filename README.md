@@ -32,66 +32,6 @@ framework:
     - "Support cross-model and cross-language comparison"
     - "Make reasoning faithfulness empirically verifiable"
 ```
-<div align="center">
-  
-# Claude
-https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
-
-# Auto Coding + Circuit Tracing for 3 Minutes
-
-https://github.com/user-attachments/assets/3aeb0786-3c8b-4873-97ff-4879ce36e11b
-
-
-
-# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
-
-
-
-https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
-
-
-# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
-
-
-
-https://github.com/user-attachments/assets/fb69406c-29b8-4f82-bbd1-74ef8fa9be30
-
-
-
-# [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
-
-<img width="725" alt="image" src="https://github.com/user-attachments/assets/ed509df2-b1a1-425d-a825-377f2fd9e2ef" />
-
-
-
-
-https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
-
-
-
-# ChatGPT
-
-<img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
-
-![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
-
-<img width="881" alt="image" src="https://github.com/user-attachments/assets/f68a611e-7aca-4b9d-8936-398f7874c9b7" />
-
-https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
-
-<img width="881" alt="image" src="https://github.com/user-attachments/assets/14ba2494-4b68-45d0-824b-d804a04e6281" />
-
-# Qwen
-
-
-# [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/c094834e-4279-4aaa-b594-39036d09b7d7)
-
-
-https://github.com/user-attachments/assets/dda4ac60-0edf-4ea2-8fc8-8342f1b4a228
-
-
-
-</div>
 
 
 ## 2. Circuit Tracing Integration Points
@@ -287,8 +227,64 @@ This framework provides a comprehensive foundation for aligning with and enhanci
 <div align="center">
   
 # Appendix
+
+
+# Claude
+
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
+
+https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
+
+# Auto Coding + Circuit Tracing for 3 Minutes
+
+https://github.com/user-attachments/assets/3aeb0786-3c8b-4873-97ff-4879ce36e11b
+
+https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
+
+
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+
+
+https://github.com/user-attachments/assets/fb69406c-29b8-4f82-bbd1-74ef8fa9be30
+
+
+
+# [Neural Circuit Trace Visualization](https://claude.ai/public/artifacts/7cdb72e9-a7c8-447c-98fd-936a35735608)
+
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/ed509df2-b1a1-425d-a825-377f2fd9e2ef" />
+
+
+
+
+https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
+
+
+
+# ChatGPT
+
+<img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
+
+![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
+
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/f68a611e-7aca-4b9d-8936-398f7874c9b7" />
+
+https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
+
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/14ba2494-4b68-45d0-824b-d804a04e6281" />
+
+# Qwen
+
+
+# [Hallucination Prevention Framework](https://chat.qwen.ai/s/deploy/c094834e-4279-4aaa-b594-39036d09b7d7)
+
+
+https://github.com/user-attachments/assets/dda4ac60-0edf-4ea2-8fc8-8342f1b4a228
+
   
 # [Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
+
+
 
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/76ddc302-5de6-429b-92e9-c4d26c30008a" />
 
