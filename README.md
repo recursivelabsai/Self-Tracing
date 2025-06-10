@@ -284,7 +284,9 @@ Anthropic's circuit tracing tools can be extended through:
 This framework provides a comprehensive foundation for aligning with and enhancing Anthropic's circuit tracing research, making Claude's internal processes more transparent and analyzable while advancing the field of AI interpretability.
 
 <div align="center">
+  
 # Appendix
+  
 # [Austin](https://claude.ai/public/artifacts/f6ca1572-79b7-44ab-bd50-2ac87b3309b1)
 
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/76ddc302-5de6-429b-92e9-c4d26c30008a" />
