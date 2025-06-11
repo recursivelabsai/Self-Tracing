@@ -12,7 +12,14 @@
 </div>
 
 
+<div align="center">
   
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
+
+https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
+
+</div>
+
 # Schemas for Circuit Tracing Research
 
 ## 1. Recursive Circuit Tracing Schemas
@@ -965,7 +972,6 @@ This framework provides a comprehensive foundation for aligning with and enhanci
 
 # Claude
 
-# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
@@ -973,7 +979,6 @@ https://github.com/user-attachments/assets/9dcd6229-90ee-4184-9bf4-7f6f6c973e9e
 
 https://github.com/user-attachments/assets/3aeb0786-3c8b-4873-97ff-4879ce36e11b
 
-https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
 
 
 # [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
