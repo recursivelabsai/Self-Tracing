@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
 
 ## 1. Recursive Circuit Tracing Schemas
 
-We introduce Recursive Circuit Tracing Schemas below to establish collaborative browser based interpretability approaches and lower barriers of entry in empowering more transparency and analyzability in Claude and other frontier AI's internal processes.
+We introduce Recursive Circuit Tracing Schemas below to establish guided and collaborative agentic interpretability approaches while lowering barriers of entry in empowering transparency and analyzability in Claude and other frontier AI's internal processes.
 
 ```json
 
