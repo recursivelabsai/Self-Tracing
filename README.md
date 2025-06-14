@@ -26,6 +26,8 @@ https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
 
 We introduce Recursive Circuit Tracing Schemas below to establish guided and collaborative agentic interpretability approaches while lowering barriers of entry in empowering transparency and analyzability in Claude and other frontier AI's internal processes.
 
+Layering these schemas serve as semantic attractors in guiding model generation trajectory across all domains, including for the use of Self-Tracing.
+
 ```json
 
 {
