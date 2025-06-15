@@ -31,14 +31,14 @@ https://github.com/user-attachments/assets/8c2345a9-4d51-44b5-99fb-36defe5e2940
 
 ![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
 
-This stack of 3D surfaces shows how symbolic residue—representing unresolved ambiguity or conflict—evolves and concentrates across five layers of recursive reasoning.
-Regions in yellow indicate high clarity, while red regions mark persistent residue or imminent collapse, revealing how interpretability challenges deepen or resolve over iterative passes.
+*This stack of 3D surfaces shows how symbolic residue—representing unresolved ambiguity or conflict—evolves and concentrates across five layers of recursive reasoning.
+Regions in yellow indicate high clarity, while red regions mark persistent residue or imminent collapse, revealing how interpretability challenges deepen or resolve over iterative passes.*
 
 
 <img width="881" alt="image" src="https://github.com/user-attachments/assets/f68a611e-7aca-4b9d-8936-398f7874c9b7" />
 
-This 3D plot visualizes reasoning steps in evaluating the function h(x, y), mapping both decision salience and hesitation points.
-Yellow marks high-confidence steps, while orange and red highlight areas of increasing uncertainty or symbolic residue, making the reasoning path and its ambiguities immediately interpretable.
+*This 3D plot visualizes reasoning steps in evaluating the function h(x, y), mapping both decision salience and hesitation points.
+Yellow marks high-confidence steps, while orange and red highlight areas of increasing uncertainty or symbolic residue, making the reasoning path and its ambiguities immediately interpretable.*
 
 </div>
 
