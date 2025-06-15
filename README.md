@@ -19,6 +19,12 @@
 https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
 
 
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+
+https://github.com/user-attachments/assets/8c2345a9-4d51-44b5-99fb-36defe5e2940
+
+
 <img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
 
 </div>
