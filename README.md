@@ -27,6 +27,19 @@ https://github.com/user-attachments/assets/8c2345a9-4d51-44b5-99fb-36defe5e2940
 
 <img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
 
+*This 3D surface visualizes how reasoning intensity and hesitation points are distributed across a recursive inference process, highlighting regions of high salience and decision bottlenecks for intuitive model interpretability.*
+
+![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
+
+This stack of 3D surfaces shows how symbolic residue—representing unresolved ambiguity or conflict—evolves and concentrates across five layers of recursive reasoning.
+Regions in yellow indicate high clarity, while red regions mark persistent residue or imminent collapse, revealing how interpretability challenges deepen or resolve over iterative passes.
+
+
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/f68a611e-7aca-4b9d-8936-398f7874c9b7" />
+
+This 3D plot visualizes reasoning steps in evaluating the function h(x, y), mapping both decision salience and hesitation points.
+Yellow marks high-confidence steps, while orange and red highlight areas of increasing uncertainty or symbolic residue, making the reasoning path and its ambiguities immediately interpretable.
+
 </div>
 
 # Schemas for Circuit Tracing Research
@@ -1011,12 +1024,6 @@ https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
 
 
 
-# ChatGPT
-
-
-![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
-
-<img width="881" alt="image" src="https://github.com/user-attachments/assets/f68a611e-7aca-4b9d-8936-398f7874c9b7" />
 
 https://github.com/user-attachments/assets/1077f815-c7d4-4342-a743-20a9a37b7a72
 
