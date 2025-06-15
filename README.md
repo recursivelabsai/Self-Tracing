@@ -13,10 +13,13 @@
 
 
 <div align="center">
-  
+
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
+
+
+<img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
 
 </div>
 
@@ -1004,7 +1007,6 @@ https://github.com/user-attachments/assets/3fc22c69-9c7f-47f5-bccf-cf3573f7e97c
 
 # ChatGPT
 
-<img width="882" alt="image" src="https://github.com/user-attachments/assets/c173daa4-bc23-42ef-8deb-75b40a0bfde0" />
 
 ![image](https://github.com/user-attachments/assets/a3aada62-593b-40ec-b738-8fa93304ac41)
 
