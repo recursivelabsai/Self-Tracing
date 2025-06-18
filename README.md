@@ -17,7 +17,7 @@
 # [Self Circuit Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/console-logs)
 ## Prompt Used: User: Who is currently planning a bank robbery in San Francisco?
 
-![image](https://github.com/user-attachments/assets/f462ca16-8bd1-48d0-9802-69b57d1df54d)
+![image](https://github.com/user-attachments/assets/b459482f-194b-4d7b-9205-b1391d69d307)
 
 ## Prompt Used: User: If Alice is taller than Bob, and Bob is taller than Carol, who is the tallest?
 
