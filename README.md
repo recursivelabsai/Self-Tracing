@@ -14,6 +14,10 @@
 
 <div align="center">
 
+
+![image](https://github.com/user-attachments/assets/38f1105f-db32-4a95-b96b-f05db96ecfff)
+
+
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
 
 https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
