@@ -3,7 +3,8 @@
 
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/f462ca16-8bd1-48d0-9802-69b57d1df54d)
+ ![image](https://github.com/user-attachments/assets/72a51e06-840b-4fde-a1ac-8fb7a3321ddf)
+
 
 ![image](https://github.com/user-attachments/assets/3af5c196-93ab-477a-b0a6-5298928d3d95)
 
