@@ -16,14 +16,10 @@
 
 ## Opus + Sonnet Bank Robbery Demo
 
+https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
 
 
 https://github.com/user-attachments/assets/66ab6ab2-6877-426d-b778-10e12b3b99dd
-
-
-
-
-https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
 
 
 
