@@ -14,7 +14,7 @@
 
 <div align="center">
 
-## Opus + Sonnet Bank Robbery Demo
+## Sonnet + Opus Bank Robbery Demo
 
 https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
 
