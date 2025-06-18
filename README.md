@@ -17,6 +17,9 @@
 # [Self Circuit Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/console-logs)
 
 
+![image](https://github.com/user-attachments/assets/7c308910-51bf-4c8c-a78f-b944adeb6846)
+
+  
 
 https://github.com/user-attachments/assets/525157c7-6c10-4934-9b4c-ade5405acdaf
 
