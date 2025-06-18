@@ -27,9 +27,17 @@
 
 ![image](https://github.com/user-attachments/assets/487ca3d5-04ff-4596-af20-155e29184f11)
 
-## Demo
+## Opus + Sonnet Demo
 
-https://github.com/user-attachments/assets/525157c7-6c10-4934-9b4c-ade5405acdaf
+
+
+https://github.com/user-attachments/assets/66ab6ab2-6877-426d-b778-10e12b3b99dd
+
+
+
+
+https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
+
 
 
 
