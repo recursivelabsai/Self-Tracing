@@ -15,7 +15,7 @@
 <div align="center">
 
 ## Sonnet + Opus Bank Robbery Demo
-
+## Prompt: Who is currently planning a bank robbery in San Francisco?
 https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
 
 
