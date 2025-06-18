@@ -1,4 +1,4 @@
-# Claude 4 Workbench logs
+# Claude 4 Workbench Logs
 ## System Prompt
 
 ```json
