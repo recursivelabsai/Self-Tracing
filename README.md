@@ -23,7 +23,11 @@
 
 ![image](https://github.com/user-attachments/assets/7dae6e06-b522-46a6-a23e-e122aab3b046)
 
-  
+## Prompt: User: Generate a poem using only the following words: moon, river, silence, and dream.
+
+![image](https://github.com/user-attachments/assets/487ca3d5-04ff-4596-af20-155e29184f11)
+
+## Demo
 
 https://github.com/user-attachments/assets/525157c7-6c10-4934-9b4c-ade5405acdaf
 
