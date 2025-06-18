@@ -1,4 +1,8 @@
 # We conduct the same self-circuit tracing experimentation across AI consoles and APIs
+# Claude 4 Opus
+
+![image](https://github.com/user-attachments/assets/c3bde710-3fef-42e0-95e6-48be8898b771)
+
 # Claude 4 Workbench
 
 <div align="center">
