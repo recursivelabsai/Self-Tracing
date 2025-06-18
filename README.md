@@ -14,9 +14,9 @@
 
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/f462ca16-8bd1-48d0-9802-69b57d1df54d)
-
 # [Self Circuit Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/console-logs)
+
+![image](https://github.com/user-attachments/assets/f462ca16-8bd1-48d0-9802-69b57d1df54d)
 
 
 ![image](https://github.com/user-attachments/assets/7c308910-51bf-4c8c-a78f-b944adeb6846)
