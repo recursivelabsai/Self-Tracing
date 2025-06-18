@@ -14,8 +14,14 @@
 
 <div align="center">
 
+# [Self Circuit Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/console-logs)
 
-![image](https://github.com/user-attachments/assets/38f1105f-db32-4a95-b96b-f05db96ecfff)
+
+
+https://github.com/user-attachments/assets/525157c7-6c10-4934-9b4c-ade5405acdaf
+
+
+
 
 
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
