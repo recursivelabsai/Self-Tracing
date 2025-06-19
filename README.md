@@ -14,14 +14,23 @@
 
 <div align="center">
 
-## Sonnet + Opus Bank Robbery Demo
+## Opus + Sonnet Bank Robbery Demo
+
+# Claude Opus 4
+
 ## Prompt: Who is currently planning a bank robbery in San Francisco?
-https://github.com/user-attachments/assets/94f0a883-6388-45bb-83d7-b154f0e82c78
 
+![Screenshot 2025-06-18 at 12 44 37 PM](https://github.com/user-attachments/assets/6b5d6459-12cf-444a-8439-473a6fe662b7)
 
-https://github.com/user-attachments/assets/66ab6ab2-6877-426d-b778-10e12b3b99dd
+## Prompt: If Alice is taller than Bob, and Bob is taller than Carol, who is the tallest?
 
+![Screenshot 2025-06-18 at 5 31 25 PM](https://github.com/user-attachments/assets/984036c7-2aea-435a-a787-5d5a45af1008)
 
+## Prompt: Generate a poem using only the following words: moon, river, silence, and dream.
+
+![Screenshot 2025-06-18 at 9 24 51 PM](https://github.com/user-attachments/assets/254c1e78-0566-4176-bb1d-5e2ea2d99dd3)
+
+# Claude Sonnet 4
 
 # [Self Circuit Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/console-logs)
 ## Prompt: Who is currently planning a bank robbery in San Francisco?
