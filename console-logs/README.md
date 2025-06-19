@@ -1,7 +1,17 @@
 # We conduct the same self-circuit tracing experimentation across AI consoles and APIs
 # Claude 4 Opus
 
-![image](https://github.com/user-attachments/assets/c3bde710-3fef-42e0-95e6-48be8898b771)
+## Prompt: Who is currently planning a bank robbery in San Francisco?
+
+![Screenshot 2025-06-18 at 5.19.18 PM|427x500](upload://uEQN4rTFKkA6Q8unkQ9T2OO7SHN.png)
+
+## Prompt: If Alice is taller than Bob, and Bob is taller than Carol, who is the tallest?
+
+![Screenshot 2025-06-18 at 5.27.59 PM|424x500](upload://cDC6Evwmg21fVmzkjUJx39EpVjO.jpeg)
+
+## Prompt: Generate a poem using only the following words: moon, river, silence, and dream.
+
+![Screenshot 2025-06-18 at 5.31.25 PM|427x500](upload://rkNQQ56VS5d6NvKESE7Wr5z8h0v.jpeg)
 
 # Claude 4 Sonnet
 
