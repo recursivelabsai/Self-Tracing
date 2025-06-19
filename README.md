@@ -14,7 +14,7 @@
 
 <div align="center">
 
-## Opus + Sonnet Bank Robbery Demo
+# Opus + Sonnet Bank Robbery Demo
 
 # Claude Opus 4
 
