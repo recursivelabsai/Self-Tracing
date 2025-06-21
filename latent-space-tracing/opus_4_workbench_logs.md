@@ -1,4 +1,4 @@
-# Claude Opus 4 Workbench Loga
+# Claude Opus 4 Workbench Logs
 
 ## System Prompt:
 ```python
