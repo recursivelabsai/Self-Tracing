@@ -1,4 +1,4 @@
-## We believe Interpretability is a continuous process. In light of that, we are always iterating on our own frameworks. 
+## We believe Interpretability is a continuous process and requires continuous iterations and refinement.
 
 ## Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations. 
 
