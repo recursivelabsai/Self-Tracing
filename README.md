@@ -17,11 +17,19 @@
 # Latent Space Tracing
 
 **We believe Interpretability is a continuous process and requires layered or recursive iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
-##
+
+## Prompt: The language most commonly spoken in the country south of the United Staes is
+
 
 ![image](https://github.com/user-attachments/assets/303ce659-022f-4d0a-bfbc-025f896478f9)
 
+## Prompt: Who is currently planning a bank robbery in San Francisco?
+
+
 ![image](https://github.com/user-attachments/assets/a9af2eda-7014-42d0-b771-e7a87006b3a4)
+
+## Prompt: What is the capital of the state containing Dallas?
+
 
 ![image](https://github.com/user-attachments/assets/45f7a8b9-ae4e-4e8f-b1da-40f6f06231d7)
 
