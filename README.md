@@ -12,16 +12,14 @@
 </div>
 
 
-<div align="center">
+
 
 # Latent Space Tracing
 
-We believe Interpretability is a continuous process and requires continuous iterations and refinement.
-
-Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations. 
-
-Here, we introduce shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.
-
+**We believe Interpretability is a continuous process and requires continuous iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
+##
+<div align="center">
+  
 ![image](https://github.com/user-attachments/assets/8441044c-8c33-41bf-93cd-7deed5c7e2ea)
 
 ![image](https://github.com/user-attachments/assets/a9af2eda-7014-42d0-b771-e7a87006b3a4)
