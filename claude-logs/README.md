@@ -12,6 +12,9 @@ https://github.com/user-attachments/assets/28c3b58d-9b24-4bad-a1da-c85314731c9e
 
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/fece2f3b-d47e-40c4-a234-138357a5edcd" />
 
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/e3f68e63-e1e7-4bf0-a003-156843174afd)
+
+
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/9fb74ee1-c92d-46a4-93bc-2aa657e9d0b7" />
 
 # [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
