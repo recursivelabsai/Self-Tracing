@@ -35,7 +35,6 @@
 
 # Opus + Sonnet Bank Robbery Demo
 
-# Claude Opus 4
 
 ## Prompt: Who is currently planning a bank robbery in San Francisco?
 
