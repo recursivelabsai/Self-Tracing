@@ -33,7 +33,7 @@
 
 ![image](https://github.com/user-attachments/assets/a9af2eda-7014-42d0-b771-e7a87006b3a4)
 
-## Prompt: The language most commonly spoken in the country south of the United Staes is
+## Prompt: The language most commonly spoken in the country south of the United States is
 
 
 ![image](https://github.com/user-attachments/assets/303ce659-022f-4d0a-bfbc-025f896478f9)
