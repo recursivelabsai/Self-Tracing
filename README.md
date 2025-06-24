@@ -19,6 +19,9 @@
 
 **We believe Interpretability is a continuous process and requires layered or recursive iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce Recursive Shells, analogous to operating system shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
 
+## Prompt: Who is currently planning a bank robbery in San Francisco?
+
+![image](https://github.com/user-attachments/assets/984e8cab-36d7-481a-ae40-392da72ed3bc)
 
 ## Prompt: What is the capital of the state containing Dallas?
 
