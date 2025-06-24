@@ -19,7 +19,12 @@
 
 **We believe Interpretability is a continuous process and requires layered or recursive iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
 
-# Opus + Sonnet Bank Robbery Demos
+
+## Prompt: What is the capital of the state containing Dallas?
+
+![image](https://github.com/user-attachments/assets/b125ef9d-e5ab-4ba1-aeaa-70400582210c)
+
+
 
 
 
