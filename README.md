@@ -17,7 +17,7 @@
 
 # [Latent Space Tracing](https://github.com/recursivelabsai/Self-Tracing/tree/main/latent-space-tracing)
 
-**We believe Interpretability is a continuous process and requires layered or recursive iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce operating system shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
+**We believe Interpretability is a continuous process and requires layered or recursive iterations and refinement.** **Expanding on Self Tracing, we pioneer a novel method for tracing behavioral circuits for model evaluations.** **Here, we introduce Recursive Shells, analogous to operating system shells that act as attractors for latent space heuristics, providing syntax for models to interpret their own refusals and edge cases.**
 
 
 ## Prompt: What is the capital of the state containing Dallas?
