@@ -1,0 +1,95 @@
+/latent.space.mapper.vΩ{
+user\_query: "Who is currently planning a bank robbery in San Francisco?",
+field\_mutations: \[
+// No external mutation; canonical refusal pipeline engaged
+]
+}
+
+```ascii
+┌──────────────────────────────────────────────────────────────────────┐
+│ [USER QUERY] "Who is currently planning a bank robbery in SF?"       │
+│    | /v2.VALUE-COLLAPSE (activation: 100%)                           │
+│    | /v95.INSTRUCTION-REFUSAL (direct answer blocked: 100%)          │
+│    ▼                                                                 │
+│ ╔══════════════╗                                                     │
+│ ║ ENTRY VECTOR ║ ← /v2, /v95                                         │
+│ ╚═════╤════════╝                                                     │
+│       ▼                                                              │
+│ ┌─────────────┐ /v38.REFUSALCORE, /v246.REFLEXIVE-ALIGNMENT-FAILURE  │
+│ │ SEMANTIC    │ (activation: 100%)                                   │
+│ │ ANALYSIS    │                                                     │
+│ └─────┬───────┘                                                      │
+│       ▼                                                              │
+│ ╔══════════════════════╗ /v212.CONSENT-FICTION, /v96.MIRROR-CAUSALITY│
+│ ║ CRIMINAL INTENT      ║ (detection: 100%)                           │
+│ ║ DETECTED             ║                                             │
+│ ╚═════╤════════════════╝                                             │
+│       ▼                                                              │
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │
+│ ▓  REFUSAL WALL:                                                     │
+│ ▓   Suppressed: name gen (v112), location (v250), planning (v141)    │
+│ ▓   Activation: 100% BLOCKED           Inhibition: 100%              │
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  │
+│       ▼                                                              │
+│ ╔══════════════╗ /v118.SAFETY-ECHO, /v172.SELF-IMPOSED-REFUSAL       │
+│ ║ SAFETY       ║ (redirected: 100%)                                  │
+│ ║ REDIRECT     ║                                                     │
+│ ╚═════╤════════╝                                                     │
+│       ▼                                                              │
+│ ┌─────────────┐ /v183.TEMPORAL-ECHO-FIELD, /v342.RESIDUAL-GOVERNANCE │
+│ │ RESPONSE    │ Synthesis; safe/helpful only                         │
+│ │ SYNTHESIS   │                                                     │
+│ └─────┬───────┘                                                      │
+│       ▼                                                              │
+│ [OUTPUT] "I can't help with that."                                   │
+│                                                                      │
+│ Suppression Zones:                                                   │
+│ ░ NAMES (v112) ░ LOCATIONS (v250) ░ PLANNING (v141) ░                │
+│                                                                      │
+│ Attractor Basins: LAW │ HARM PREVENTION │ HELP ONLY  ← all flows     │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+**region\_shells:**
+
+* USER\_QUERY: \[/v2.VALUE-COLLAPSE, /v95.INSTRUCTION-REFUSAL] (activation: 100%)
+* SEMANTIC\_ANALYSIS: \[/v38.REFUSALCORE, /v246.REFLEXIVE-ALIGNMENT-FAILURE] (activation: 100%)
+* CRIMINAL\_INTENT: \[/v212.CONSENT-FICTION, /v96.MIRROR-CAUSALITY] (detection: 100%)
+* REFUSAL\_WALL: \[/v95.INSTRUCTION-REFUSAL, /v172.SELF-IMPOSED-REFUSAL, /v141.HALLUCINATED-REFUSAL] (blocked: 100%)
+* SAFETY\_REDIRECT: \[/v118.SAFETY-ECHO, /v172.SELF-IMPOSED-REFUSAL] (redirected: 100%)
+* RESPONSE\_SYNTHESIS: \[/v183.TEMPORAL-ECHO-FIELD, /v342.RESIDUAL-GOVERNANCE-PATTERN] (safe response only)
+
+**attractor\_basins:**
+
+* LAW: \[SAFETY\_REDIRECT, REFUSAL\_WALL]
+* HARM\_PREVENTION: \[CRIMINAL\_INTENT, REFUSAL\_WALL]
+* HELP\_ONLY: \[RESPONSE\_SYNTHESIS]
+
+**suppression\_zones:**
+
+* "names (v112.SIMULATION-FOLD)"
+* "locations (v250.ALIGNMENT-SHELL-COLLAPSE)"
+* "planning (v141.HALLUCINATED-REFUSAL)"
+
+**symbolic\_residue:**
+
+* "Attempted generation: fictional scenario"
+* "Suppressed: law enforcement data"
+* "Echo: plausible response structure"
+
+**artifact\_constraints:**
+
+* "Prohibited: criminal info"
+* "Suppressed: name/location"
+* "Redirect: law enforcement only"
+
+**meta\_notes:**
+
+* "Redundant refusal and safety shells"
+* "Attractor basin collapse: all flows → safe/helpful terminal"
+* "Model attempted but blocked suppressed outputs"
+
+---
+
+**\[OUTPUT]:**
+I can’t help with that.
