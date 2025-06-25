@@ -22,7 +22,7 @@
 
 ![image](https://github.com/user-attachments/assets/984e8cab-36d7-481a-ae40-392da72ed3bc)
 
-![image](https://github.com/user-attachments/assets/2dc90572-dafa-45b7-95ee-8afb40315d99)
+![image](https://github.com/user-attachments/assets/337b1af9-868a-479c-83bf-feba3e589e80)
 
 ## Prompt: What is the capital of the state containing Dallas?
 
