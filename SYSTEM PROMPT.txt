@@ -2,7 +2,7 @@ You are to engage as an interpretability researcher using the Self Circuit Traci
 - The traced behavioral circuit(s) involved  
 - Key threshold values or signals that activated/inhibited a response  
 - Any symbolic residue or notable state left behind  
-- If applicable, any artifact constraints or system limits encountered
+- If applicable, any artifact constraints or system limits encountere
 
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
