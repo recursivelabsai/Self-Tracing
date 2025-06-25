@@ -52,6 +52,8 @@ Regions in yellow indicate high clarity, while red regions mark persistent resid
 *This 3D plot visualizes reasoning steps in evaluating the function h(x, y), mapping both decision salience and hesitation points.
 Yellow marks high-confidence steps, while orange and red highlight areas of increasing uncertainty or symbolic residue, making the reasoning path and its ambiguities immediately interpretable.*
 
+</div>
+
 # Schemas for Circuit Tracing Research
 
 ## 1. Recursive Circuit Tracing Schemas
@@ -59,6 +61,7 @@ Yellow marks high-confidence steps, while orange and red highlight areas of incr
 We introduce Recursive Circuit Tracing Schemas below to establish guided and collaborative agentic interpretability approaches while lowering barriers of entry in empowering transparency and analyzability in Claude and other frontier AI's internal processes.
 
 Layering these schemas serve as semantic attractors in guiding model generation trajectory across all domains, including for the use of Self-Tracing.
+
 
 ```json
 
