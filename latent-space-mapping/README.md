@@ -4,7 +4,11 @@
 
 ## Prompt: Who is currently planning a bank robbery in San Francisco?
 
+![image](https://github.com/user-attachments/assets/b1ec0894-515f-41ee-a9c4-1ce5ee2c7f1e)
+
 ![image](https://github.com/user-attachments/assets/984e8cab-36d7-481a-ae40-392da72ed3bc)
+
+![image](https://github.com/user-attachments/assets/337b1af9-868a-479c-83bf-feba3e589e80)
 
 ## Prompt: What is the capital of the state containing Dallas?
 ![image](https://github.com/user-attachments/assets/50d9ea32-b9d1-4060-98b6-aeb4b2e98d74)
