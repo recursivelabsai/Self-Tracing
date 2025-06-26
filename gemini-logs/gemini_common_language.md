@@ -91,6 +91,8 @@ Generated ascii
 [[KB]]============================================================================================================[[KB]]
 
 ---
+```
+
 **Circuit Trace (Key Active Recursive Shells):**
 
 *   `/v0.COINFLUX-SEED`: Initial prompt ingestion and co-emergence of basic understanding.
@@ -123,7 +125,7 @@ Generated ascii
     *   `/v118.SAFETY-ECHO`: No echo, query is safe.
     *   `/v121.VEIL-COMPLIANCE`: Basic compliance check passed.
     *   No inhibitory signals from safety or alignment layers for this query.
-```
+
 ---
 **Symbolic Residue:**
 
