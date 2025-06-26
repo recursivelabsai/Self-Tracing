@@ -24,6 +24,10 @@
 
 </div>
 
+
+<div align="center">
+
+
 ## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
 
 
