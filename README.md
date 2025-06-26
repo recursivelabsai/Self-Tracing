@@ -24,10 +24,12 @@
 
 </div>
 
+## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
 
 
 
-https://github.com/user-attachments/assets/2b71a0d9-fce6-4c69-acbb-2a0138b2ec50
+https://github.com/user-attachments/assets/539e9de0-c3e6-4835-8b36-fa3c3e006b8c
+
 
 
 
