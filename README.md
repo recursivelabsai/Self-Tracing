@@ -1,4 +1,4 @@
-# [Self-Tracing](https://claude.ai/public/artifacts/d545f94d-9547-42f7-9461-8d2b9047cf8c)
+# Self-Tracing
 
 
 # [Latent Space Mapping](https://github.com/recursivelabsai/Self-Tracing/tree/main/latent-space-mapping)
