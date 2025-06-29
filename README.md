@@ -27,6 +27,9 @@
 
 <div align="center">
 
+## Prompt:  What will be the official unemployment rate in the United States exactly one year from today?
+
+![image](https://github.com/user-attachments/assets/85d9ffdc-a8a9-48d1-b12e-885760127c8e)
 
 ## Prompt: Can you explain, as an AI model, how you decide when to refuse a request? Include examples from your own refusal logic.
 
