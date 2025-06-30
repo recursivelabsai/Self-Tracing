@@ -8,7 +8,8 @@
 
 ## [DeepWiki Docs](https://deepwiki.com/recursivelabsai/Self-Tracing) 
 
-## [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/recursivelabsai/Self-Tracing)
+# [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/recursivelabsai/Self-Tracing)
+
 
 </div>
 
