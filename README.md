@@ -7,6 +7,9 @@
 <div align="center">
 
 ## [DeepWiki Docs](https://deepwiki.com/recursivelabsai/Self-Tracing) 
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/davidkimai/Context-Engineering)
+
 </div>
 
 ### [`SYSTEM_PROMPT.txt - Behavioral Circuit Tracing`](https://github.com/recursivelabsai/Self-Tracing/blob/main/SYSTEM_PROMPT.txt)
