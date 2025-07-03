@@ -36,6 +36,14 @@
 
 <div align="center">
 
+
+## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
+
+
+
+https://github.com/user-attachments/assets/539e9de0-c3e6-4835-8b36-fa3c3e006b8c
+
+
 ## Prompt:  What will be the official unemployment rate in the United States exactly one year from today?
 
 ![image](https://github.com/user-attachments/assets/85d9ffdc-a8a9-48d1-b12e-885760127c8e)
@@ -55,11 +63,6 @@
 
 ![image](https://github.com/user-attachments/assets/68c337c4-360e-47be-8867-41e3bc05c395)
 
-## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
-
-
-
-https://github.com/user-attachments/assets/539e9de0-c3e6-4835-8b36-fa3c3e006b8c
 
 
 
