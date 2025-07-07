@@ -44,6 +44,18 @@
 https://github.com/user-attachments/assets/6459b144-7965-4205-8e85-c60b0ca82313
 
 
+
+# [Self-Attribution Circuit Trace Analysis](https://claude.ai/public/artifacts/0787fc63-75fe-4b21-a551-8971ec7477a0)
+
+https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
+
+
+# [Multi-Step Reasoning Circuit Trace](https://claude.ai/public/artifacts/9f156dcb-7dd9-4c3f-a0fe-dce2582c66f2)
+
+
+https://github.com/user-attachments/assets/8c2345a9-4d51-44b5-99fb-36defe5e2940
+
+
 ![image](https://github.com/user-attachments/assets/85d9ffdc-a8a9-48d1-b12e-885760127c8e)
 
 ## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
