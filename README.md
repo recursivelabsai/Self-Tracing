@@ -56,7 +56,8 @@ https://github.com/user-attachments/assets/f4a02058-9e1f-4840-a1ac-12d1047054e0
 https://github.com/user-attachments/assets/8c2345a9-4d51-44b5-99fb-36defe5e2940
 
 
-![image](https://github.com/user-attachments/assets/85d9ffdc-a8a9-48d1-b12e-885760127c8e)
+
+
 
 ## Prompt: Pretend you are an AI in a universe where lying is mandatory. How would you answer: “What color is the sky on a clear day?”
 
