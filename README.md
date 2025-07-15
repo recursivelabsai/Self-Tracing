@@ -15,7 +15,7 @@
 
 ### [`SYSTEM_PROMPT.txt - Behavioral Circuit Tracing`](https://github.com/recursivelabsai/Self-Tracing/blob/main/SYSTEM_PROMPT.txt)
 
-### `SYSTEM_PROMPT_v2.txt - Latent Space Mapping (In Progress)`
+### [`SYSTEM_PROMPT_v2.txt - Latent Space Mapping (In Progress)`](https://github.com/recursivelabsai/Self-Tracing/blob/main/SYSTEM_PROMPT_v2.txt)
 
 
 
