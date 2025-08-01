@@ -1,6 +1,6 @@
 # Self-Tracing
 
-# [Research Terminal](https://claude.ai/public/artifacts/ad9b19ee-91b0-4b8f-8fbb-dfd70ca56742)
+# [Research Terminal](https://claude.ai/public/artifacts/423dc0ba-49a9-440c-80ee-3a69dc2701f8)
 
 <div align="center">
 
