@@ -1,8 +1,6 @@
-# [Self-Tracing](https://claude.ai/public/artifacts/45c8fa3a-2b09-437f-a833-01c3485c3735)
+# Self-Tracing
 
-
-# [Latent Space Mapping](https://github.com/recursivelabsai/Self-Tracing/tree/main/latent-space-mapping)
-
+# [Research Terminal](https://claude.ai/public/artifacts/ad9b19ee-91b0-4b8f-8fbb-dfd70ca56742)
 
 <div align="center">
 
